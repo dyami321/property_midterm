@@ -1,0 +1,1559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1A140F">
+<meta name="color-scheme" content="dark">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Property I">
+<meta name="description" content="A Jeopardy-style recall board for Property I. Five boards and a final covering occupancy, donative transfer, bona fide purchase, accession, adverse possession, and landlord-tenant law, with a report and a targeted drill on whatever you miss.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Property I — recall board">
+<meta property="og:description" content="Five boards and a final on the Property I syllabus, plus a report and targeted drill on whatever you miss.">
+<meta name="twitter:card" content="summary">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAAOeklEQVR42u2de3AT173Hz+5KWq3elvwUMTaMTcDBzk1MTOJQICQ8GiCZgnm1JE3aUhc3dMbDnVtnOkM7t484w5AU0pDccsk0aRqDGSANNIyhkITyhhuIA2RIjIOxkR+SLcl6P7d/iGuslWzZ+IFX/n7+8qyPj6zVR79z9jx+h9qYm0MAiAeNWwAgB4AcAHIAyAEgB4AcAHIAyAEgB4AcAEAOADkA5ACQA0AOADkA5ACQA0AOADkAgBwAcgDIASAHgBwAcgDIASAHgBwAcgAAOQDkAINHUqhS4y4ARA4AOQDkACMNZUzV4i4ARA4AOQDkAJADQA4AOQDkAJADQA4AOQCAHAByAMgBIAeAHAByAMgBIAeAHAByAAA5AOQAkAMMN5Lhqkgll+Fujh2cXj8iB0CzAkTdrIwQT81U//h7+oTF3qixnPrCNcRK+sFiDW549RYhZHOl8b4Maf+Faw/b9h+zR35+8Vn9gsfiJ7l4cdNNr59H5ACiZNg2Uo90h/T+XPY3P8sUXNy4xWQyB0a0koWl6hee0fdEjp56fl2eSVFRJX0Bvmqrqc0SjK1Ep2Y2VxpVCvp0vWvbBxZ0SJOZazd8H5/oFlxkpVTFylSBMRHWLTOoFLTNEXrnwy50SJOf3XW2lg5hvMmfyC6drRFcnFOsengaRwjZsa/T6Q5DjuQnEOTfqrWEYj7rsvm67F49Vr2WeX5JCiHk0wvOz7/y4FE2qag75VhT1dS7w9FDY4v/o0/tgotSCVWxKpVhbrcuP11uUHC0xRZ874AV4xzJwKyHlDXVOTs2ZScsufeovckk7PrlGmXL5mkJIfNKVA9O4XievL2n0+MLQ47xRSjEv1lrCYaEwxXPPqEtma5YuziFEHL4tOPKda8Y3x3kGCrNbYG9/xQ2LgxNKtemcSzdZgnWHLKK9K1J8Olu2WgcYg0ffWYvLuDyslnBdZ4n22stvgAv0juDyDEMhMPkrdpOf4wEPC/u94XIEWeEdNZDyp+vSh1UJSZzYFedLfLUeuebR5P1Kw1VW1v94gweiBzDxtGzjthHkqxU6epFKWhWxjsrF+g4Ns79XFSqLpgsR7OSJJy46Dpx0TWoP5k6iX16loYQ8mWDtzAvSgWKIuVlhl/+0TTGJ+gROUYEVkatX5FKUeRqo/eVne2XrgmHydP1ksiYB+QYdzy3OCVdL/H6+bf3dPI8+fPeTpdH2Pl4cqa6aAoHOcYXRVO4J2eqCSHvH+wyW4OEEGt3/Kn58uUGhZyGHPcetZKuqc6pqc4xpkmHUo9ey0TqyY63OlDB0eVlBkJI/Teeo+ecPddPfeE6U++OreqHS8XUuAxbh3RYlh71g8fPxF50+wN9vS7NMLFlBlsJIUQul/RTrHxFpl7DuLzh1//W5vRGrQHbtrvt/tycFE3UK84uVh2/2H32sguRI8kpLVLNLVYTQnbsM1tswtWBDlfojV3tsX/10qoMtZKBHMmMVsVUrEwnhJy74jp6rjtumfNXXUfOCH+lUzMVZemieI9j/aSm7z6urVgxpFu5/pWmwjxuiJUQQl56tamp1b/gUe2G1fGr2r6n49DJ29OzDE19+Fpewjo3v9d2/HMHIgcQHzjjDSByAMgBIAeAHABygLEJMvskJ9hIDdCsALE3KyPNYFP8bNloTDhZb3eGfva7FsHFX/0kY3qefICFCSE6NfP4fyin5rITs2QqjmZZ2h8Ie3y8xxv2+MLW7pDJHGg1B03mgMkciF0EBDmSE46lVy3UzX9UTdPC6xxLiEY49erz8y9suimiNyiazD49DDY7z8bn02YUKHpfudzg/f3/tid8oUg6r74KqxT0r36SkWu8/a4bmn2HTji+vumzO0Jhnqg4+r4MaXGBYl6JipVSoy/HsHRIETnukvIyQ48Zl655Nr/bEQ5HtUF2Z+jKde/HJ7pf/lH6EFejoUMqJvKy2d7R6ODx7nAffQmLNbj53Y5AEDvexg0l06PaKUe/yZzaLMF/fe6CHOOFrLSo5jg3K0Grcf6KG4+y4wXBDoMVC3RXv/VZrMG+yl+65llT1YTIMS5wRw9XpOokr200lpcZCvPkEoZKmreJyHE33DD5ZzwQ1e2QSqi5M1RzZ6h8fv5ak/ebm/6Gm76GZp+4cktCjmHg1Bfu5U/p4uajZWVUUT5XlM8RQnie3DD5L1x1HzvntDlCaFbGBa2WQGySyVgoikyaIFsxX/enqgmrF+mkEgpyjAt21dk+OGQdYMoehqGenav9rxfSxdUjgRx3z4HPuis339p/zN7RFRxI+el58rL5Ylrrn/x9jtixS2ZgmxEj3/JwuL/Y0NUdqj1sqz1sM6ZJp01i8yay+RNZY5qU6iNALCzV/P2TbrEkrE1+Odxe4Schlw0oXrIyihDi9g6o4YjMyEc22is5ujBf/liRsrhAwdCCl6buz2Vjs7tAjnuDJ0YOnXpAoSNSLNathLg84TP17jP17kyDpHJt2sSsqPlqY5pULHIkf5+jPaZDkKJhBpJEZUK6lBAStz8xp1hVU52TMLttW2dw6wcWQTZSjhVNnzT55WhsibOyoTA/QXq/iVmySORobPH1VcaYJtVrmITNjUAvp3gWgyW/HN/e8jtcws+jr0P57vQcH1MTQnx+vqG5v1Uz80rUCf8Bb3T309QREMutE01mnzt9iMFn5zly1r5sXlS+pYLJ8iVzVLvq4h+qNadY/cQjKkLIJxe6zfY4Bx54A7eDweLZ6roz1lZLn5+3Uk4b0+/M2TpcofNfOWJPWUDkuGfsO2btsgu7Dj/4rqH6F/fNLVZnGKSsjJIwlF4jmTld+fKPsjauzaQo4nCHao8kOJJNLqN/u35CbhYb97cURdYtS+s9MPrePzrFYgYZJ3Mrdmeo+i9tm9YZVYqoL8MDk7kHJsdP/+j1h7f8tc1sTTy6lWGQvv6f2Z/9n+PkJef1W75uZyjS5502iVvyHd20SXc6NweO2+pO20V030STn2OAKX76yZWTrpdWrEh7eKqSSvS4cLnBs31PR3N7n+2UhKEeeUD5xAx18TSlTJr46cNsDf7lgGUsJ/EZv5EjQkdX4Df/Y8pKlT7+oCp/ojzHKFNxjJKjI4MZTne4uc3/9U3v2cvOptYE/adgiD9d7zxd75RJqam5XGEel50pm5AuTVFLOJaWMJTXH3Z7wyaz/1uT/8IVV32DOyzCqXtk9gHju0MKIAeAHAByAMgBxsGjLDL7jCmQ2QegWQFib1aGnQGm8ong8/Nub7jVEmhs8Z+pd11v8Q+9zrhYrMENr94ihGyuNN6XkWCLbO1h2/5jtydTItk+4hZ7cdPNsXk2YJIMn7MyipUxKRqmYLJ8yWzN1Ubvzv1dfaVzAQNEBJl9+knlw9AkRSMpzJcvf0pr0EaJ7vKE/7CzvbGPEDLY9ECEkIWl6hee0fdEjp56fl2eKZjJ8wX4qq2mNkucGV2dmtlcaVQp6NP1rm0fWNAhHUFCYWKxBT8573x5W6tgNZ6SozesSRvpTWbXbvg+PiE8boeVUhUrU+PO/a5bZlApaJsj/gmB6JCOCA5X+P1/WAUXMw2SR6K3O48Eu+tsLTEr//InsktnawQX5xSrHp7GEUJ27OsUxQbr5HlauXTNE7vIKuFC4qETCPJv1VpCMZ912Xxd7wMl9Vrm+SUphJBPLzg//wpbE0aXQJC3dQt3sqdohu2ovbpTjjVVTb07HD00tvhj91VLJVTFqlTm/zfH/nS5QcHRFlvwvQNWjHPck+51HGOGUt+sh5Q11Tk7NmUnLLn3qL3JJOwD5hply+ZpCSHzSlQPTuF4nry9p1MseyGTSg6phEqJ2cp2q32UnmZDIf7NWktsu/bsE9qS6YrIQfaHTzuuXPeK6JYmjxwPT+OY6AQHPE9OXhq9NH7NbYG9/xQ2LgxNKtemcSzdZgnWHLKK65YmySCYRsX84GnhSeB//9TePJjIkXB7Y0I++sxeXMDlZQt3KvA82V5r8QVElo1U3JGDoYlBK5lXovrDhsy0lDuie/38Xw9ad9fZRvn/CYfJW7WdsRldeFHmqBVt5Ij7Lbc5QjdM/kvXPCcvue5iICF2hHTWQ8qfr0odVCUmc2BXnS3y1HrnK0iT9SsNVVtb/aIKHkn1tMLzxNwVPPul+94OMR0964h9JMlKla5elILIMRps3GLqtAdzsmSrFuoKJst7RjXmP6YuKVT8bkd7S/s9m3VbuUDHsXG+dYtK1ReuuK82ehE5Rhyfn/+6yVf9TodgD5JWxVSuHZ5ZlRMXXWuqmtb9d/PA/2TqJPbpWRpCyJcNQgkoipSXGeQy5OcYLQJBfud+4SSWMU26+Dua0f9nWBm1fkUqRZGrjd5XdrbHZvBJ10siYx6QY5T45qYvNvP80jkawbbpUeC5xSnpeonXz7+9p5PnyZ/3dsae2/XkTHXRFA5yjB61dTbBZlSFnH5mzqju9Cyawj05U00Ief9gV2R7vrU7/tR8+XLDQPJOQY7hoaUj8K+LTsHFhaXqYZx402uZmuqcmuqc7HirAxUcXV5mIITUf+OJ5BSMcOoL15l6d2xVP1wqgsZFBJl9BpjK592D5tIHlb37oTIp9cxc9Zu1HXddZ2/kckk/xcpXZOo1jMsbfv1vbU5v1LKjbbvb7s/NEWg6u1h1/GL32csuRI7RwGwNHjopnNqY/6gmK3XEz1crLVLNLVYTQnbsM1tswtWBDlfojV1xjhB8aVWGWslAjtHqeRzpEow+MTT13GLDiL6oVsVUrEwnhJy74jp6rjtumfNXXUfOCH+lUzMVZelj+X6O3fwcd5fK5/uLDGsWxd988M5HFq8vPJA6++elV5uaWv0LHtVuWB2/qu17OnpiGENTH76WN9h3gcgxIuz/xGp3hghI7sgBEDkA5ACQA0AOADkA5AAAcgDIASAHgBwAcgDIASAHgBwAcgDIAQDkAJADQA4AOQDkAGOHfwOUmJBiAFaGzwAAAABJRU5ErkJggg==">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<title>Property I — recall board</title>
+<style>
+  :root{
+    --ink:#1A140F; --cell:#261C15; --cell-hi:#33261C;
+    --rubric:#A02C2C; --rubric-deep:#73201F;
+    --vellum:#EDE3CC; --vellum-dim:#AFA187;
+    --gilt:#CDA434; --verdigris:#4F8073;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+  html,body{margin:0;padding:0;overscroll-behavior-y:none}
+  body.locked{overflow:hidden;position:relative}
+  body{background:var(--ink);color:var(--vellum);font-family:var(--serif);font-size:17px;line-height:1.5;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1180px;margin:0 auto;padding:calc(22px + env(safe-area-inset-top)) max(18px,env(safe-area-inset-right)) calc(72px + env(safe-area-inset-bottom)) max(18px,env(safe-area-inset-left))}
+  header.top{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 22px;border-bottom:2px solid var(--rubric-deep);padding-bottom:14px;margin-bottom:26px}
+  header.top h1{font-size:1.5rem;font-weight:600;margin:0}
+  header.top .round{color:var(--rubric);font-size:1.05rem}
+  .spacer{flex:1}
+  .score{font-size:1.35rem;color:var(--gilt);font-variant-numeric:tabular-nums}
+  .score.neg{color:var(--rubric)}
+  .score small{display:block;font-size:.72rem;color:var(--vellum-dim);line-height:1}
+
+  .board{display:grid;grid-template-columns:repeat(6,1fr);gap:7px}
+  .cat{background:var(--rubric-deep);color:var(--vellum);padding:14px 11px;min-height:92px;display:flex;align-items:center;justify-content:center;text-align:center;font-size:.95rem;line-height:1.25;border-top:3px solid var(--rubric)}
+  .cellbtn{touch-action:manipulation;font-family:var(--serif);background:var(--cell);color:var(--gilt);border:0;border-top:1px solid #3a2c21;width:100%;padding:22px 6px;font-size:1.45rem;font-variant-numeric:tabular-nums;cursor:pointer;transition:background .12s ease}
+  .cellbtn:hover:not(:disabled){background:var(--cell-hi)}
+  .cellbtn:focus-visible{outline:3px solid var(--gilt);outline-offset:-3px}
+  .cellbtn:disabled{background:#1F1711;color:#3a2e24;cursor:default}
+
+  .controls{margin-top:24px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+  .btn{touch-action:manipulation;font-family:var(--serif);font-size:1rem;background:transparent;color:var(--vellum);border:1px solid #4a392c;padding:9px 18px;cursor:pointer}
+  .btn:hover{border-color:var(--gilt);color:var(--gilt)}
+  .btn:focus-visible{outline:2px solid var(--gilt);outline-offset:2px}
+  .btn.primary{background:var(--rubric);border-color:var(--rubric);color:var(--vellum)}
+  .btn.primary:hover{background:var(--rubric-deep);color:var(--vellum)}
+  .btn.good{border-color:var(--verdigris);color:var(--verdigris)}
+  .btn.good:hover{background:var(--verdigris);color:var(--ink)}
+  .btn.bad{border-color:var(--rubric);color:var(--rubric)}
+  .btn.bad:hover{background:var(--rubric);color:var(--vellum)}
+  .tally{color:var(--vellum-dim);font-size:.9rem}
+
+  .veil{position:fixed;inset:0;height:100dvh;background:var(--vellum);color:#1F1912;display:block;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;z-index:50;padding:calc(22px + env(safe-area-inset-top)) max(18px,env(safe-area-inset-right)) calc(26px + env(safe-area-inset-bottom)) max(18px,env(safe-area-inset-left))}
+  .veil[hidden]{display:none}
+  .sheet{max-width:760px;width:100%;margin:0 auto;text-align:center;min-height:100%;display:flex;flex-direction:column;justify-content:center}
+  .eyebrow{color:var(--rubric);font-size:.95rem;margin-bottom:6px}
+  .eyebrow .amt{color:#6b5a40}
+  .clue{font-size:1.68rem;line-height:1.38;margin:16px 0 26px}
+  .answer{font-size:1.4rem;color:var(--rubric-deep);border-top:2px solid #C9BB9C;padding-top:20px;margin-top:4px}
+  .note{font-size:.92rem;color:#6b5a40;margin-top:14px;line-height:1.45}
+  .sheet .row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:26px}
+  .sheet .btn{border-color:#BBAA8A;color:#1F1912}
+  .sheet .btn:hover{border-color:var(--rubric);color:var(--rubric)}
+  .sheet .btn.primary{background:var(--rubric-deep);border-color:var(--rubric-deep);color:var(--vellum)}
+  .sheet .btn.primary:hover{background:var(--rubric);color:var(--vellum)}
+  .sheet .btn.good{border-color:#2F6657;color:#2F6657}
+  .sheet .btn.good:hover{background:#2F6657;color:var(--vellum)}
+  .sheet .btn.bad{border-color:var(--rubric);color:var(--rubric)}
+  .sheet .btn.bad:hover{background:var(--rubric);color:var(--vellum)}
+  .dd{color:var(--rubric);font-size:1.15rem;margin-bottom:10px}
+  .wager{font-family:var(--serif);font-size:1.5rem;text-align:center;width:200px;padding:8px;border:1px solid #BBAA8A;background:#F6EFDC;color:#1F1912}
+  .wager:focus-visible{outline:2px solid var(--rubric);outline-offset:1px}
+  .hint{font-size:.9rem;color:#6b5a40;margin-top:8px}
+
+  /* drill */
+  .opt{touch-action:manipulation;display:block;width:100%;text-align:left;font-family:var(--serif);font-size:1.05rem;background:#F6EFDC;border:1px solid #CFC1A2;color:#1F1912;padding:11px 15px;margin-bottom:8px;cursor:pointer}
+  .opt:hover{border-color:var(--rubric)}
+  .opt:focus-visible{outline:2px solid var(--rubric);outline-offset:1px}
+  .opt.sel{background:#E6D9B8;border-color:#8a7452}
+  .opt.hit{background:#DCE9E2;border-color:#2F6657}
+  .opt.err{background:#F0DAD8;border-color:var(--rubric)}
+  .opt .mk{color:#6b5a40;margin-right:10px}
+  .verdict{font-size:1.15rem;margin:18px 0 6px}
+  .verdict.ok{color:#2F6657}
+  .verdict.no{color:var(--rubric)}
+  .why{font-size:1rem;color:#43382a;line-height:1.5;max-width:62ch;margin:0 auto}
+  .prog{color:#6b5a40;font-size:.88rem}
+
+  /* report */
+  .results h2{font-size:1.55rem;margin:0 0 2px;font-weight:600}
+  .bigscore{font-size:3.1rem;color:var(--gilt);font-variant-numeric:tabular-nums;line-height:1.1;margin:8px 0}
+  .bigscore.neg{color:var(--rubric)}
+  section.rep{margin-top:34px;max-width:78ch}
+  section.rep h3{color:var(--rubric);font-size:1.08rem;margin:0 0 4px;font-weight:600}
+  section.rep .sub{color:var(--vellum-dim);font-size:.9rem;margin:0 0 16px}
+  .trow{display:flex;align-items:center;gap:12px;margin-bottom:9px}
+  .tname{flex:0 0 auto;width:min(30ch,46%);font-size:.98rem}
+  .tname .who{color:var(--vellum-dim);font-size:.82rem}
+  .bar{flex:1;height:11px;background:#2C2119}
+  .bar i{display:block;height:100%;background:var(--rubric)}
+  .bar i.warm{background:var(--gilt)}
+  .tnum{flex:0 0 auto;color:var(--vellum-dim);font-size:.85rem;width:12ch;text-align:right}
+  .repeat{color:var(--gilt);font-size:.8rem}
+  .guide{border-left:2px solid var(--rubric-deep);padding:2px 0 2px 16px;margin-bottom:22px;max-width:72ch}
+  .guide .gh{font-size:1.02rem;margin-bottom:4px}
+  .guide .gh .who{color:var(--vellum-dim);font-size:.84rem}
+  .guide p{margin:0;color:#D6CAB0;font-size:.97rem;line-height:1.52}
+  .clean{color:var(--verdigris)}
+  .codebox{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.95rem;line-height:1.6;word-break:break-all;background:#2C2119;border-left:2px solid var(--gilt);color:var(--gilt);padding:12px 14px;margin:0 0 12px;max-width:72ch;-webkit-user-select:all;user-select:all}
+
+  @media (max-width:900px){
+    body{font-size:16px}
+    .board{grid-template-columns:1fr;gap:0}
+    .cat{min-height:0;justify-content:flex-start;text-align:left;margin-top:14px;padding:10px 12px}
+    .catgroup{display:grid;grid-template-columns:repeat(5,1fr);gap:5px;margin-top:5px}
+    .cellbtn{padding:15px 2px;font-size:1rem;min-height:52px}
+    .catgroup{gap:4px}
+    .btn{padding:11px 18px}
+    .opt{padding:13px 14px}
+    .wager{width:170px}
+    .controls{gap:10px}
+    .controls .btn{flex:1 1 auto}
+    .clue{font-size:1.28rem}
+    .answer{font-size:1.12rem}
+    .tname{width:100%}
+    .trow{flex-wrap:wrap}
+  }
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>Property I</h1>
+    <span class="round" id="roundName">Round one</span>
+    <span class="spacer"></span>
+    <span class="score" id="score">0<small>score</small></span>
+  </header>
+  <div id="boardArea">
+    <div class="board" id="board"></div>
+    <div class="controls">
+      <span class="tally" id="tally"></span>
+      <span class="spacer"></span>
+      <button class="btn" id="restore">Paste a save code</button>
+      <button class="btn" id="advance">Skip to next round</button>
+    </div>
+  </div>
+  <div id="resultsArea" hidden></div>
+</div>
+<div class="veil" id="veil" hidden><div class="sheet" id="sheet"></div></div>
+<script>
+const TOPICS = {
+"title-division":{label:"The three-part division of title",author:"DeGroff, Lessons 1\u20132",
+ brief:"Title divides in three. God holds absolute and transcendental title as Creator; God grants dominion authority as Sovereign, and grants civil government its authority to punish interference with it; man holds a temporal present and historical title as steward, accountable for its administration. Ps. 24:1; Rom. 13:1, 4.",
+ drills:[
+  {type:"mc",prompt:"Which description belongs to man under the three-part division?",
+   options:["Absolute and transcendental title","Temporal title held as steward","Sovereign grantor of dominion","No title of any kind"],correct:1,
+   why:"Man's title is real but temporal, and it carries accountability for administration. Absolute title stays with the Creator."},
+  {type:"pick",prompt:"Select the three parts of the division.",
+   options:["God as Owner","God as Sovereign","The state as trustee","Man as Steward","The family as grantee"],correct:[0,1,3],
+   why:"Owner, Sovereign, Steward. The family matters to the dominion grant's fourth limit, not to the division of title."}
+ ]},
+
+"dominion-limits":{label:"The dominion grant and its four limits",author:"DeGroff, Lessons 1\u20132",
+ brief:"Gen. 1:26\u201328 grants dominion subject to four limits: to man and no other creature; over the earth's creatures and not over fellow men; over the earth and not the heavens; and to the family unit. The fourth is the one that makes the property private rather than collective.",
+ drills:[
+  {type:"mc",prompt:"Which limit is the foundation of private as opposed to collective property?",
+   options:["To man and no other creature","Not over fellow men","Not the heavens","To the family unit"],correct:3,
+   why:"A grant to the family rather than to mankind at large is what divides ownership among holders."},
+  {type:"pick",prompt:"Select the four limits on the dominion grant.",
+   options:["To man and no other creature","Over the earth's creatures, not fellow men","Over the earth, not the heavens","To the family unit","Subject to the civil magistrate"],correct:[0,1,2,3],
+   why:"Four limits. Civil authority enters later, as the power to punish interference, not as a limit on the grant itself."}
+ ]},
+
+"natural-civil":{label:"Natural right against civil grant",author:"DeGroff, Lessons 1\u20132",
+ brief:"Property is either a natural, inherent, unalienable right that government is bound to secure, or a basis of expectation created by law and coextensive with it. Blackstone, Locke, and the Founders take the first; Bentham and Seligman the second. Bentham: property and law are born together and die together.",
+ drills:[
+  {type:"mc",prompt:"\u201cProperty and law are born together, and die together.\u201d Whose position?",
+   options:["Locke","Blackstone","Bentham","The Founders"],correct:2,
+   why:"Bentham. Property is nothing but a basis of expectation, and expectation is the work of law."},
+  {type:"pick",prompt:"Select the writers on the natural-right side of the divide.",
+   options:["Blackstone","Locke","Bentham","The Founders","Seligman"],correct:[0,1,3],
+   why:"Bentham and Seligman are the civil-right side. Seligman grounds property in social utility."}
+ ]},
+
+"seligman":{label:"Seligman's four rejections",author:"DeGroff, Lessons 1\u20132",
+ brief:"Seligman discards four justifications in turn. Occupation justifies nothing, seizure being no reason to retain. Natural rights fails because nature is mutable, antiquity having held slavery natural. Labor fails because no one created the land and society holds a mortgage on all that is produced. Legal theory describes property without justifying it.",
+ drills:[
+  {type:"mc",prompt:"Seligman's objection to the labor theory is that \u2014",
+   options:["labor is hard to measure","no one created the land, and society holds a mortgage on all that is produced","labor theory is a modern invention","it proves too much"],correct:1,
+   why:"Nothing is the product of individual labor alone, and the land was created by no one."},
+  {type:"mc",prompt:"What does Seligman say is left standing after the four rejections?",
+   options:["Divine grant","Social utility","First possession","Occupancy"],correct:1,
+   why:"Property rests on social utility, and is a natural right only in the broad sense that all social growth is natural."}
+ ]},
+
+"ownership-bundle":{label:"Ownership and its incidents",author:"DeGroff, Lessons 1\u20132",
+ brief:"Ownership is a bundle of separable rights, so one holding fewer than all of them holds a smaller bundle and gets the same protection for what he holds. The incidents of absolute ownership are usus, the right to use; fructus, the right to its products; abusus, the right to consume it if consumable; and alienation at will.",
+ drills:[
+  {type:"pick",prompt:"Select the incidents of absolute ownership.",
+   options:["Usus","Fructus","Abusus","Alienation at will","Possessio"],correct:[0,1,2,3],
+   why:"Use, products, consumption, and disposal. Possession is how rights are realized, not an incident in this list."},
+  {type:"mc",prompt:"What follows from ownership being a bundle?",
+   options:["Only the full owner is protected","A holder of fewer rights gets the same protection for what he holds","Lesser interests are not property","The bundle cannot be divided"],correct:1,
+   why:"The smaller bundle is entitled to the same governmental protection as the larger one."}
+ ]},
+
+"property-classes":{label:"Classes of property",author:"DeGroff, Lessons 1\u20132",
+ brief:"Immovables are land and whatever is permanently attached, called real property. Movables are goods, money, and all else that may attend the owner's person, called personal property or chattels. Corporeal property is perceptible by the senses. Incorporeal divides into a chose in possession, a right in a definite tangible thing of which possession may be taken, and a chose in action, enforceable only by legal action.",
+ drills:[
+  {type:"mc",prompt:"A promissory note represents a right enforceable only by suit. What is it?",
+   options:["A chose in possession","A chose in action","Corporeal property","An immovable"],correct:1,
+   why:"The paper is tangible, but the right it represents can be realized only by legal action."},
+  {type:"mc",prompt:"Which pair is correctly matched?",
+   options:["Movables \u2014 real property","Immovables \u2014 chattels","Immovables \u2014 real property","Corporeal \u2014 intangible"],correct:2,
+   why:"Immovables are real property; movables are personal property, or chattels."}
+ ]},
+
+"res-communes":{label:"Res communes",author:"DeGroff, Lessons 1\u20132",
+ brief:"Air, running water, the sea and its shores are res communes, owned in common by all and not subject to private appropriation, because the exclusive control that defines private property cannot be exercised over them. A right of use may still be acquired, airwaves for example, though ownership and the power to exclude may not. This is the premise of the wild-animals material.",
+ drills:[
+  {type:"mc",prompt:"Why can res communes not be privately owned?",
+   options:["A statute forbids it","Exclusive control cannot be exercised over them","They have no value","They belong to the sovereign"],correct:1,
+   why:"Private property is defined by the power to exclude, and that power cannot be exercised over the sea or the air."},
+  {type:"mc",prompt:"What may still be acquired in a thing held in common by all?",
+   options:["Nothing at all","A right of use","Full ownership","A possibility of reverter"],correct:1,
+   why:"Usus may be acquired \u2014 airwaves are the standard example \u2014 without ownership or a power to exclude."}
+ ]},
+
+"gov-grounds":{label:"Four grounds for regulating capture",author:"DeGroff, Lesson 3",
+ brief:"A state may restrict the taking of wild animals on four grounds. Animals ferae naturae are res communes, subject from the earliest traditions to the law-giving power. Civil law may restrict what natural law merely permits, though not what it commands or forbids. The power is held as a trust for the people, not as a prerogative. And the police power independently supports preserving a food supply.",
+ drills:[
+  {type:"mc",prompt:"Pothier's principle is that civil law may \u2014",
+   options:["contradict the natural law where necessary","restrict what the natural law merely permits","command what the natural law forbids","never touch natural liberties"],correct:1,
+   why:"Civil law cannot contradict what natural law commands or forbids, but most civil law is restriction of what it merely permits."},
+  {type:"pick",prompt:"Select the four grounds the handout's slots call for.",
+   options:["Animals are res communes","Civil law may restrict what natural law permits","The power is held in trust for the people","The police power and the food supply","Game belongs to the Crown"],correct:[0,1,2,3],
+   why:"The handout gives four numbered slots and no content; these four are recovered from Geer and the Pothier excerpt."}
+ ]},
+
+"geer":{label:"Geer and the proprietary theory",author:"*Geer v. Connecticut*",
+ brief:"A state may regulate, and may absolutely prohibit, the taking of and traffic in wild game, including by forbidding possession with intent to ship out of state. Two independent grounds: state common ownership held in trust, and the police power. The captor takes only a qualified property, propter privilegium, lasting while the animal stays within his liberty and actual use.",
+ drills:[
+  {type:"mc",prompt:"What kind of property does a captor take under Geer?",
+   options:["Absolute and permanent","Qualified, propter privilegium","None until sale","A defeasible fee"],correct:1,
+   why:"A man can have no absolute permanent property in creatures of a vague and fugitive nature."},
+  {type:"mc",prompt:"Field, J., dissenting in Geer, would vest title when \u2014",
+   options:["the animal enters the state","the legislature says so","man by his labor or skill brings the animal under control","the animal is born"],correct:2,
+   why:"Field's labor-and-skill rule. Douglas later adopts it."}
+ ]},
+
+"douglas-burtt":{label:"Douglas, Burtt, and the taking",author:"*Douglas*; *People v. Burtt*",
+ brief:"State ownership of free-swimming fish is a nineteenth-century legal fiction, and neither State nor Federal Government has title until the creature is reduced to possession by skillful capture. The modern question is whether the State exercised its police power in conformity with federal law and the Constitution. Taking means exerting such control that the thing has come into one's possession.",
+ drills:[
+  {type:"mc",prompt:"Under Douglas, what is the modern question about a state game regulation?",
+   options:["Whether the state owns the animals","Whether the state exercised its police power in conformity with federal law and the Constitution","Whether the animals are within state borders","Whether the taker is a resident"],correct:1,
+   why:"Ownership is a fiction, so the inquiry collapses into ordinary constitutional limits on the police power."},
+  {type:"mc",prompt:"In Burtt, when was the taking complete?",
+   options:["When the net was set","When the fish were retrieved from the water into the boat","When the fish were loaded onto the truck","When the fish were sold"],correct:1,
+   why:"Taking is exerting such control that the object has come into one's possession. The defendant who only moved netted fish to a truck did not take them."}
+ ]},
+
+"occupancy-elements":{label:"Elements of occupancy",author:"DeGroff, Lesson 4",
+ brief:"Occupancy requires an unequivocal, manifest intention to appropriate the animal, together with certain control depriving the animal of its natural liberty. It does not require manual seizure or killing. Pursuit alone vests no right whatever, and mortal wounding alone is not enough. The handout states that Liesner's elements are the same as Pierson's; only the specific test differs.",
+ drills:[
+  {type:"pick",prompt:"Select the two elements of occupancy.",
+   options:["Unequivocal, manifest intention to appropriate","Certain control depriving the animal of its natural liberty","Manual seizure","Killing the animal","Hot pursuit"],correct:[0,1],
+   why:"Intent plus control. The others are expressly not required, and pursuit alone vests nothing."},
+  {type:"mc",prompt:"How do Pierson and Liesner relate on the handout's structure?",
+   options:["Different elements and different tests","Same elements, different specific test","Same test, different elements","Liesner overrules Pierson"],correct:1,
+   why:"State the elements once, then run both specific tests."}
+ ]},
+
+"pierson-test":{label:"The Pierson test",author:"*Pierson v. Post*",
+ brief:"The hunter must either both mortally wound the animal and maintain pursuit, or trap it such that escape is impossible. This is the stricter of the two formulations because it demands impossibility rather than improbability.",
+ drills:[
+  {type:"mc",prompt:"Which satisfies the Pierson test?",
+   options:["Long and costly pursuit","A mortal wound, pursuit abandoned","A mortal wound with pursuit maintained","Sighting the animal first"],correct:2,
+   why:"Branch one is conjunctive: mortal wound AND continued pursuit. Branch two is a trap making escape impossible."},
+  {type:"mc",prompt:"What word marks the Pierson trapping branch?",
+   options:["Improbable","Inevitable","Impossible","Imminent"],correct:2,
+   why:"Escape must be impossible. Improbability is the Liesner standard."}
+ ]},
+
+"liesner-test":{label:"The Liesner test",author:"*Liesner v. Wanie*",
+ brief:"The hunter must ensure either that escape is highly improbable or that possession is practically inevitable. This is the more forgiving formulation, so run Pierson first and Liesner in the alternative.",
+ drills:[
+  {type:"pick",prompt:"Select the two branches of the Liesner test.",
+   options:["Escape is highly improbable","Possession is practically inevitable","Escape is impossible","The animal is mortally wounded"],correct:[0,1],
+   why:"Improbability or practical inevitability. Impossibility belongs to Pierson."},
+  {type:"mc",prompt:"Why argue Liesner after Pierson rather than before?",
+   options:["It is the older case","It is the more forgiving standard, so it catches what Pierson misses","It is binding","It applies only to whales"],correct:1,
+   why:"Lead with the stricter test; fall back to the one that requires only improbability."}
+ ]},
+
+"vesting":{label:"When the interest vests",author:"*Liesner v. Wanie*",
+ brief:"A vested property interest accrues the instant the animal is brought under such control that actual possession is practically inevitable, and it cannot be divested by another's intervening and killing it. A stranger who fires the finishing shot takes nothing. The common law of the chase vests at that point; the older civil law waited for actual taking.",
+ drills:[
+  {type:"mc",prompt:"A hunter has the animal cornered and helpless when a stranger shoots it. Who takes?",
+   options:["The stranger, who reduced it to possession","The hunter, whose interest had vested","Neither","Whoever reaches it first"],correct:1,
+   why:"Once possession is practically inevitable the interest vests and intervening killing does not divest it."},
+  {type:"mc",prompt:"The older civil law vested the interest at \u2014",
+   options:["practically inevitable control","the first wound","actual taking","the start of pursuit"],correct:2,
+   why:"That is the divergence from the common law of the chase."}
+ ]},
+
+"ratione-soli":{label:"Ratione soli",author:"DeGroff, Lesson 4",
+ brief:"The owner of land has constructive possession of wild animals on his soil while they remain there, so as between the landowner and a trespasser who captures them there, the landowner prevails. A landowner who knows of the purpose may also forbid entry to hunt. The handout gives the heading and nothing under it, so the rule here is the conventional one.",
+ drills:[
+  {type:"mc",prompt:"A trespasser captures a fox on another's land. Who prevails?",
+   options:["The trespasser, who had possession","The landowner, by constructive possession","Neither; the fox is unowned","The first to sell it"],correct:1,
+   why:"Constructive possession in the landowner, and a trespasser may not profit from his own wrong."},
+  {type:"mc",prompt:"The landowner's right to forbid hunting entry is an incident of \u2014",
+   options:["state police power","ownership in land","the law of capture","custom"],correct:1,
+   why:"It is an incident of owning the soil, not an exercise of sovereign power."}
+ ]},
+
+"custom-ghen":{label:"Custom displacing first possession",author:"*Ghen v. Rich*",
+ brief:"A trade usage displaces first possession where its application is necessarily limited and affects few persons; an entire business has recognized and acquiesced in it for many years; it requires of the first taker the only act of appropriation possible; and without it the industry could not exist. Killing a fin-back with a marked bomb-lance vests title in the killer though the carcass sinks and later strands.",
+ drills:[
+  {type:"pick",prompt:"Select the requirements for a usage to displace first possession.",
+   options:["Necessarily limited application","Long acquiescence by an entire business","The only act of appropriation possible","The industry could not exist without it","Approval by statute"],correct:[0,1,2,3],
+   why:"Four requirements. No statute is needed; the usage works because the industry depends on it."},
+  {type:"mc",prompt:"Why does custom govern in Ghen but not in Pierson?",
+   options:["Ghen is later in time","Ghen involved an industry with a proved usage and no alternative means of appropriation","Pierson involved land","Custom never governs"],correct:1,
+   why:"Pierson was sport, with no proved usage and alternatives available; custom appears there only in Livingston's dissent."}
+ ]},
+
+"gift-elements":{label:"Elements of a valid gift",author:"DeGroff, Lesson 5",
+ brief:"A gift is a voluntary present transfer of title without consideration. It requires a voluntary transfer; no consideration, since consideration makes it a sale; and a present transfer of title, which itself requires present intent, delivery, and acceptance. The handout nests those three under the third element rather than listing five co-equal ones.",
+ drills:[
+  {type:"pick",prompt:"Select the three requirements nested under \u201cpresent transfer of title.\u201d",
+   options:["Present intent","Delivery","Acceptance","Consideration","Writing"],correct:[0,1,2],
+   why:"Intent, delivery, acceptance. Consideration would make it a sale, and no writing is required."},
+  {type:"mc",prompt:"An intent to transfer title next year is \u2014",
+   options:["a valid gift","a gift causa mortis","a promise, unenforceable without consideration","a constructive delivery"],correct:2,
+   why:"A gift must transfer title presently. A future transfer is a promise."}
+ ]},
+
+"delivery-forms":{label:"The three forms of delivery",author:"W2 deck",
+ brief:"Delivery may be actual, physical delivery of the item itself; constructive, delivery of the means to obtain possession such as a safe combination or a car key; or symbolic, delivery of a thing representing the gift, such as one cow standing for a herd or an instrument describing what is given. Symbolic delivery raises a present-intent problem.",
+ drills:[
+  {type:"mc",prompt:"Handing over the key to a locked car is \u2014",
+   options:["actual delivery","constructive delivery","symbolic delivery","no delivery"],correct:1,
+   why:"Constructive delivery is handing over the means of obtaining possession."},
+  {type:"mc",prompt:"Which form carries a special caution, and why?",
+   options:["Actual, because it is rare","Constructive, because keys get lost","Symbolic, because it raises a present-intent problem","None of them"],correct:2,
+   why:"Ask whether the symbol shows a transfer now or a promise later."}
+ ]},
+
+"delivery-degree":{label:"How perfect delivery must be",author:"W2 deck; *In re Cohn*",
+ brief:"Sufficiency runs on a continuum. The strict rule requires delivery as perfect as the nature of the property and the circumstances of the parties reasonably permit, and allows symbolic delivery only where conditions are so adverse to actual delivery as to make it as nearly perfect as circumstances allow. The lax rule, the Restatement approach, requires only strong evidence of present intent plus any step toward delivery. Some states abolish delivery where a signed writing shows intent.",
+ drills:[
+  {type:"mc",prompt:"The Restatement approach on the lax side requires \u2014",
+   options:["actual delivery always","a deed of gift","strong evidence of present intent plus any step toward delivery","delivery as perfect as possible"],correct:2,
+   why:"That is the lax pole. The strict pole demands the most perfect delivery the circumstances permit."},
+  {type:"mc",prompt:"In re Cohn is cited for which pole, and what complicates that?",
+   options:["Lax; it demands little","Strict; yet it excused actual delivery on the facts","Lax; the dissent disagreed","Strict; the court required a deed"],correct:1,
+   why:"The recited standard is strict but the application is lenient. Argue the standard and the application separately."}
+ ]},
+
+"inter-vivos":{label:"Gifts inter vivos",author:"W2 deck",
+ brief:"A valid gift between living persons, not premised on imminent death. Title transfers from donor to donee and the gift is irrevocable once accepted.",
+ drills:[
+  {type:"mc",prompt:"When does an inter vivos gift become irrevocable?",
+   options:["On delivery","On acceptance","On the donor's death","Never"],correct:1,
+   why:"Title transfers and the gift is irrevocable after acceptance."}
+ ]},
+
+"causa-mortis":{label:"Gifts causa mortis",author:"W2 deck",
+ brief:"A gift premised on the donor's expectation of imminent death, meaning a specific cause of death relatively soon rather than a generalized fear. Title transfers immediately, but the gift stays freely revocable while the donor lives and is automatically revoked if the donor survives the expected peril or if the donee dies first. A donor who recovers may affirm. A valid gift causa mortis supersedes a written will.",
+ drills:[
+  {type:"pick",prompt:"Select the two events that automatically revoke a gift causa mortis.",
+   options:["The donor survives the expected peril","The donee dies before the donor","The donor writes a will","The donee moves away"],correct:[0,1],
+   why:"Survival of the peril, or the donee's prior death. A later will does not beat a valid gift causa mortis."},
+  {type:"mc",prompt:"A donor expecting to die of cancer makes a gift, then is killed by a bus without recovering. The gift \u2014",
+   options:["is revoked, because he died of something else","stands, because he never recovered from the anticipated peril","is void for want of intent","converts to an inter vivos gift"],correct:1,
+   why:"Death from an unanticipated cause, with no recovery from the anticipated peril, leaves the gift standing."},
+  {type:"mc",prompt:"\u201cImminent death\u201d means \u2014",
+   options:["any fear of dying","old age","a specific cause of death, relatively soon","a terminal diagnosis only"],correct:2,
+   why:"A generalized fear of death will not do."}
+ ]},
+"caveat-emptor":{label:"The general rule and its corollaries",author:"DeGroff, Lessons 6\u20137",
+ brief:"A buyer of personal property takes only such title or interest as the seller has and is authorized to transfer. Caveat emptor. A thief acquires no title, his possession is a continuing wrong, and a purchaser from him takes nothing however innocent. A purchaser from a mere bailee likewise takes nothing, standing no better than if the goods had been stolen.",
+ drills:[
+  {type:"mc",prompt:"An innocent buyer pays full value to a thief. What does he get?",
+   options:["Good title, because he is innocent","Voidable title","Nothing","Title subject to a lien"],correct:2,
+   why:"No one is deprived of property except by his own voluntary act or by operation of law. A thief has nothing to give."},
+  {type:"mc",prompt:"A purchaser from a mere bailee stands \u2014",
+   options:["better than a purchaser from a thief","no better than a purchaser from a thief","as a buyer in ordinary course","as a bona fide purchaser with good title"],correct:1,
+   why:"Baehr: he has no more right than if the goods had been stolen and he bought from the thief."}
+ ]},
+
+"void-voidable":{label:"Void against voidable title",author:"W3/W4 deck",
+ brief:"Void title confers no power to transfer anything to anyone, ever, and the owner may recover from any holder. It arises from theft, a mere bailment or agency, false agency, and identity fraud where the owner meant to deal only with the impersonated party. Voidable title confers power to transfer good title to a BFP, and the owner may avoid only before such a sale. It arises from fraud where the owner intended to pass title to the person before him.",
+ drills:[
+  {type:"mc",prompt:"Good title can pass to a BFP if the seller had \u2014",
+   options:["void title","voidable title","no title but good faith","possession alone"],correct:1,
+   why:"Voidable title carries the power to cleanse in the hands of a BFP. Void title never does."},
+  {type:"pick",prompt:"Select the sources of VOID title.",
+   options:["Theft","A mere bailment or agency","False agency","Fraud where the owner meant to sell to the person before him","Identity fraud where the owner meant to deal only with the impersonated party"],correct:[0,1,2,4],
+   why:"Face-to-face fraud produces voidable title, because the seller intended to sell to the person in front of him."}
+ ]},
+
+"bfp-elements":{label:"Elements of a bona fide purchaser",author:"W3/W4 deck",
+ brief:"A bona fide purchaser is one who purchases for value, in good faith, and without knowledge of the fraud or defect.",
+ drills:[
+  {type:"pick",prompt:"Select the elements of a BFP.",
+   options:["A purchaser for value","In good faith","Without knowledge of the fraud or defect","In the ordinary course of business","From a merchant"],correct:[0,1,2],
+   why:"Three elements. Ordinary course and a merchant seller belong to the buyer-in-ordinary-course test instead."}
+ ]},
+
+"phelps-intent":{label:"The common law intent test",author:"*Phelps v. McQuade*; *Baehr v. Clark*",
+ brief:"Where the vendor intends to sell to the person with whom he deals, title passes even though he is deceived as to that person's identity or responsibility; otherwise no title passes. It is purely a question of the vendor's intention. Face to face, voidable title passes. By letter, the seller intends the firm whose name is signed and knows no one else, so nothing passes. False agency passes nothing. And the principle applies only where there was an actual sale.",
+ drills:[
+  {type:"mc",prompt:"A swindler impersonating a creditworthy man buys goods face to face. Title is \u2014",
+   options:["void","voidable","good","conditional"],correct:1,
+   why:"The seller intended to sell to the person before him, so the sale was voidable but not void."},
+  {type:"mc",prompt:"A swindler writes letters posing as an existing firm. Title is \u2014",
+   options:["void, because the seller intended to deal with that firm and no one else","voidable","good on delivery","voidable only if a check bounced"],correct:0,
+   why:"Cundy v. Lindsay. The seller knew no one else, so nothing passed at common law."},
+  {type:"mc",prompt:"Diamonds handed to a broker to show a customer, returnable within the hour, create \u2014",
+   options:["voidable title","a mere agency, so nothing passes","good title on resale","an entrustment under the Code only"],correct:1,
+   why:"Baehr: the voidable-title principle applies only where there was an actual sale."}
+ ]},
+
+"gambino-thief":{label:"The thief who improves",author:"*Gambino*",
+ brief:"Where a thief enhances a stolen chattel or substitutes parts, the chattel in its enhanced value or changed condition still belongs to the original owner, who may retake it. The distinction between a willful and an involuntary wrongdoer is uniformly recognized, which is why accession can help an innocent improver and never helps the thief.",
+ drills:[
+  {type:"mc",prompt:"A thief rebuilds a stolen car and sells it. The owner \u2014",
+   options:["gets only the scrap value","may retake the car in its improved condition","loses to the buyer","must pay for the improvements"],correct:1,
+   why:"No amount of improvement by a willful wrongdoer moves title."}
+ ]},
+
+"apparent-authority":{label:"Apparent authority at common law",author:"*O'Connor v. Clark*",
+ brief:"An owner is estopped from asserting title where he clothed the person disposing of the property with apparent title or apparent authority to dispose of it, and the party asserting the estoppel acted and parted with value on the faith of that appearance, so that he will bear the loss if the appearance was false. Where one of two innocent persons must suffer by a third's fraud, the loss falls on the one whose act or omission enabled it.",
+ drills:[
+  {type:"pick",prompt:"Select the two elements of the common law estoppel.",
+   options:["The owner clothed the seller with apparent title or authority","The buyer acted and parted with value on the faith of it","The seller was a merchant","The goods were displayed publicly"],correct:[0,1],
+   why:"Two elements. Merchant status and display go to whether slight additional circumstances turn the scale."},
+  {type:"mc",prompt:"State the maxim underlying the estoppel.",
+   options:["Possession is nine tenths of the law","Where one of two innocents must suffer, the loss falls on the one who enabled the fraud","Let the buyer beware","Equity follows the law"],correct:1,
+   why:"That maxim drives O'Connor, Zendman, and \u00a7 2-403 alike."}
+ ]},
+
+"zendman-scale":{label:"Zendman's sliding scale",author:"*Zendman v. Harry Winston*",
+ brief:"Entrusting possession to a depositary, pledgee, or agent does not estop the owner; nor does the added fact that the possessor deals in similar merchandise; nor the further fact that he may exhibit the goods to solicit offers. But slight additional circumstances may turn the scale. In Zendman they did: a month's acquiescence in a public show-window display among goods for sale, the owner's officer knowing and saying nothing, and a course of dealing accepting the proceeds without enforcing the memoranda's limits.",
+ drills:[
+  {type:"pick",prompt:"Select what is NOT enough, standing alone, to estop the owner.",
+   options:["Delivery to a depositary, pledgee, or agent","That the possessor deals in similar merchandise","That he may exhibit the goods to solicit offers","A month's acquiescence in a sales-window display"],correct:[0,1,2],
+   why:"The first three are insufficient alone. The window display, with the course of dealing, is what turned the scale."},
+  {type:"mc",prompt:"What phrase captures Zendman's method?",
+   options:["Bright-line rule","Slight additional circumstances may turn the scale","Strict liability","Caveat venditor"],correct:1,
+   why:"A sliding scale rather than a rule, which is why the facts matter so much."}
+ ]},
+
+"porter-limits":{label:"The limits of estoppel",author:"*Porter v. Wertz*",
+ brief:"Possession without more is insufficient to create an estoppel, and entrustment for a purpose unrelated to sale does not estop the owner even where he knows the possessor is a dealer. The owner there retained investigators, notified the FBI, obtained the fraudster's written acknowledgment of title, and consigned the painting for home display only. Statutory estoppel failed too: the seller was a delicatessen employee, and the buyer investigated no provenance.",
+ drills:[
+  {type:"mc",prompt:"Why did statutory estoppel fail in Porter?",
+   options:["The buyer paid too little","The seller was not a person in the business of selling goods of that kind, and the buyer was not in good faith","The owner had sold the painting","The Code did not apply"],correct:1,
+   why:"Two independent grounds, either of which defeats buyer-in-ordinary-course status."},
+  {type:"mc",prompt:"Does conformity with trade practice excuse a failure to check provenance?",
+   options:["Yes, custom controls","No; commercial indifference to ownership is not excused by the trade's indifference","Only for merchants","Only above a dollar threshold"],correct:1,
+   why:"In an industry whose transactions cry out for verification of title, indifference is not fair dealing."}
+ ]},
+
+"ucc-voidable":{label:"Voidable title under \u00a7 2-403(1)",author:"U.C.C. \u00a7 2-403(1)",
+ brief:"A purchaser acquires all title his transferor had or had power to transfer, and a person with voidable title has power to transfer good title to a good faith purchaser for value. Where goods were delivered in a transaction of purchase, that power exists even though the transferor was deceived as to identity, the check was later dishonored, the parties agreed on a cash sale, or delivery was procured by fraud punishable as larceny. Theft remains void.",
+ drills:[
+  {type:"pick",prompt:"Select the four circumstances in which the Code still finds voidable title.",
+   options:["Deceived as to the purchaser's identity","A check later dishonored","An agreed cash sale, cash never paid","Fraud punishable as larceny","Outright theft"],correct:[0,1,2,3],
+   why:"Subsections (a) through (d). Theft is not a transaction of purchase, so it stays void."},
+  {type:"mc",prompt:"Where do the Code and the common law diverge most sharply?",
+   options:["Face-to-face impersonation","Deceit by letter as to identity","Theft","Gifts"],correct:1,
+   why:"Void under Cundy at common law; voidable under (a), which draws no letter-or-person distinction."},
+  {type:"mc",prompt:"A buyer takes from a voidable-title holder knowing of the defect. He gets \u2014",
+   options:["good title","the voidable title only","nothing","good title under the shelter rule"],correct:1,
+   why:"The cleansing sentence runs only to a good faith purchaser for value, so the owner may still avoid against him."}
+ ]},
+
+"entrustment":{label:"The entrustment rule",author:"U.C.C. \u00a7 2-403(2)\u2013(3)",
+ brief:"Any entrusting of goods to a merchant who deals in goods of that kind gives him power to transfer all rights of the entruster to a buyer in ordinary course. The elements are any delivery or acquiescence in possession; to a merchant dealing in goods of that kind; who sells; to a buyer in ordinary course. Entrusting includes any delivery and any acquiescence, whatever conditions the parties expressed, and whether or not the dealing was larcenous.",
+ drills:[
+  {type:"pick",prompt:"Select the elements of the entrustment rule.",
+   options:["Any delivery or acquiescence in possession","To a merchant who deals in goods of that kind","The merchant sells","To a buyer in ordinary course","The owner intended a sale"],correct:[0,1,2,3],
+   why:"The owner's intent is irrelevant; that is the chief way the Code is broader than common law estoppel."},
+  {type:"mc",prompt:"A thief entrusts goods to a dealer, who sells to a buyer in ordinary course. The buyer gets \u2014",
+   options:["good title","the entruster's title, which is nothing","voidable title","title subject to the owner's lien"],correct:1,
+   why:"Entrustment conveys the entruster's rights, not the owner's. Ask what the entruster held."},
+  {type:"mc",prompt:"Is a sale itself an entrustment?",
+   options:["No, a sale transfers title instead","Yes; any delivery is an entrustment","Only between merchants","Only if the price is unpaid"],correct:1,
+   why:"Any delivery counts, including a sale."}
+ ]},
+
+"bioc":{label:"Buyer in ordinary course",author:"U.C.C. \u00a7 1-201(9); \u00a7 2-103(1)(b)",
+ brief:"A buyer in ordinary course buys in good faith, without knowledge that the sale violates another's ownership rights, and in ordinary course from a person in the business of selling goods of that kind. Ordinary course turns on the type of item, the time and place, the pricing, and the purchase procedure. A merchant's good faith is honesty in fact plus observance of reasonable commercial standards of fair dealing in the trade.",
+ drills:[
+  {type:"pick",prompt:"Select the indicators of a purchase in the ordinary course.",
+   options:["Ordinary type of item for that seller","Ordinary time and place","Ordinary pricing","Ordinary purchase procedure","Payment in cash"],correct:[0,1,2,3],
+   why:"Four factors from the deck. Cash alone proves nothing."},
+  {type:"mc",prompt:"BIOC and BFP are \u2014",
+   options:["the same test","different; BIOC additionally requires ordinary course and a seller in the business of selling goods of that kind","different; BFP is stricter in every respect","interchangeable under the Code"],correct:1,
+   why:"Similar but distinct. Conflating them is the standard error."}
+ ]},
+
+"shelter-replevin":{label:"Shelter rule and replevin",author:"W3/W4 deck; *Lieber v. Mohawk Arms*",
+ brief:"Once title is cleansed in the hands of a protected taker it stays good down the chain, including for donees and takers with notice. Replevin lies in favor of one with the superior right to possession, and title in a third party is not a defense; a defendant concerned for the true owner may interplead or notify him. A seller also warrants good title under \u00a7 2-312.",
+ drills:[
+  {type:"mc",prompt:"A BFP takes good title and then gives the goods away. The donee holds \u2014",
+   options:["nothing, because he gave no value","good title, by the shelter rule","voidable title","title subject to avoidance"],correct:1,
+   why:"Good title stays good down the chain, including for donees and takers with notice."},
+  {type:"mc",prompt:"In replevin, the defendant argues a stranger has better title. That is \u2014",
+   options:["a complete defense","no defense; the plaintiff need only have the superior right to possession","a defense if the stranger is identified","a defense only against a BFP"],correct:1,
+   why:"Lieber. The defendant may interplead or notify the stranger instead."}
+ ]},
+
+"accession-elements":{label:"Requirements for accession",author:"W5 deck",
+ brief:"Accession requires a possessor in good faith who substantially increases the value of another's property. A total change in character may be relevant, but value is the key inquiry. There is no bright line on substantiality, only guideposts: 26:1 is enough, 12:1 is enough, 6:1 could be enough, and 2:1 is likely not enough.",
+ drills:[
+  {type:"pick",prompt:"Select the elements of accession.",
+   options:["A possessor in good faith","Who substantially increases the value of another's property","A total change in character","Payment of consideration"],correct:[0,1],
+   why:"Two elements. Change in character may be relevant, but value is the key inquiry."},
+  {type:"mc",prompt:"Which ratio is likely NOT substantial?",
+   options:["26:1","12:1","6:1","2:1"],correct:3,
+   why:"2:1 is likely not enough. 6:1 could be; 12:1 and 26:1 are."}
+ ]},
+
+"accession-outcomes":{label:"The three accession outcomes",author:"W5 deck",
+ brief:"A good-faith substantial improver takes title and compensates the owner, but only for the value of the thing when he gained possession. A bad-faith improver must return the chattel and is liable for the whole improved thing, even the frame. A good-faith slight improver returns the chattel minus any severable improvement, and may be entitled to compensation for a non-severable improvement depending on his state's law.",
+ drills:[
+  {type:"mc",prompt:"Adam improves a canvas in good faith by a 12:1 ratio. The result?",
+   options:["He returns it and keeps the frame","He owns it and compensates the owner for the canvas's value when he got it","He owns it free of any obligation","He is liable for the whole painting"],correct:1,
+   why:"Good faith plus a substantial increase passes title, with compensation limited to the original value."},
+  {type:"mc",prompt:"Ben improves in bad faith by a 26:1 ratio. The result?",
+   options:["He owns it, since the ratio is high","He returns it and is liable for the whole painting, even the frame","He returns it and keeps the frame","He owes only the canvas's value"],correct:1,
+   why:"Good faith is an absolute condition. No ratio saves a bad-faith improver."},
+  {type:"mc",prompt:"Chris improves in good faith by a 2:1 ratio. What does he keep?",
+   options:["The whole painting","Nothing at all","The frame, being severable","The canvas only"],correct:2,
+   why:"He returns the painting minus the severable improvement, and may be owed for a non-severable one depending on state law."}
+ ]},
+
+"accession-damages":{label:"Damages and the absolute condition",author:"*Capitol Chevrolet*; *Wetherbee*",
+ brief:"The improver owes the value of the original article or materials at the time he obtained them. Where improvements are substantially less than the chattel's value when obtained, the owner may reclaim; where they approach or exceed it, title passes. The controlling test is relative value, not identifiability: it is not the excess of the artificial over the natural value, but the degree of such excess. The doctrine is unavailable to a thief or one who fails to inquire.",
+ drills:[
+  {type:"mc",prompt:"What is the controlling principle on substantiality?",
+   options:["Whether the materials can still be identified","Whether the character changed","Not the excess of artificial over natural value, but the degree of such excess","Whether the improver paid value"],correct:2,
+   why:"Identifiability is rejected as unsatisfactory; a beam is traceable into a house, yet the owner takes neither house nor organ."},
+  {type:"mc",prompt:"The owner of a stripped hull rebuilt into a $4,750 car recovers \u2014",
+   options:["the full value of the car","the scrap value of the hull when the improver bought it","nothing","half the value"],correct:1,
+   why:"Capitol Chevrolet. The claim is for the original value at the time of taking."}
+ ]},
+
+"confusion-goods":{label:"Confusion of goods",author:"*Wetherbee*",
+ brief:"Willful intermixture without consent gives the entire property, without any account, to him whose property was invaded and its distinct character destroyed. Accidental or mistaken intermixture protects the innocent mixer so far as circumstances permit, and his property is not forfeited unless just redress to the other makes it unavoidable. Motive is of the highest importance, which is the same variable that runs accession.",
+ drills:[
+  {type:"mc",prompt:"A willfully mixes his grain with B's without consent. The whole belongs to \u2014",
+   options:["A","B, without any account","both equally","whoever stored it"],correct:1,
+   why:"Willful intermixture forfeits the wrongdoer's share entirely."},
+  {type:"mc",prompt:"What variable links confusion of goods to accession?",
+   options:["Value","Identifiability","Good faith against bad faith","Possession"],correct:2,
+   why:"Motive is of the highest importance in both."}
+ ]},
+
+"ocean":{label:"OCEAN, the core elements",author:"W5 deck",
+ brief:"Adverse possession requires possession that is open, continuous, exclusive, adverse, and notorious for the full statutory period. Open and notorious mean possession cannot be concealed and must be so visible that anyone in the owner's shoes reasonably should know of it. Continuous means without serious interruption for the whole period. Exclusive means the possessor does not share ownership rights with the true owner. Adverse means asserting an owner's rights without permission. Virginia's HAVEC covers the same ground.",
+ drills:[
+  {type:"pick",prompt:"Select the five OCEAN elements.",
+   options:["Openly","Continuously","Exclusively","Adversely","Notoriously","Officially"],correct:[0,1,2,3,4],
+   why:"Open, continuous, exclusive, adverse, notorious. Notorious is the same requirement as open."},
+  {type:"mc",prompt:"A possessor holds with the owner's permission. Which element fails?",
+   options:["Openly","Continuously","Adversely","Exclusively"],correct:2,
+   why:"Adverse possession requires asserting an owner's rights inconsistently with the owner's, and without permission."},
+  {type:"mc",prompt:"In HAVEC, \u201cHostile\u201d corresponds to \u2014",
+   options:["openly","adversely","exclusively","continuously"],correct:1,
+   why:"Hostile is adversely; Actual and Visible are openly and notoriously."}
+ ]},
+
+"ap-approaches":{label:"The three approaches, and the short-term statute",author:"DeGroff, Lesson 10",
+ brief:"A jurisdiction applies one of three approaches. The \u201cmere\u201d claim of right statute is objective: state of mind is irrelevant. The good faith claim of right statute is subjective and requires belief that the claim is rightful, so a knowing encroacher fails. The third is the short-term statute, which requires the ordinary elements plus color of title and payment of taxes, usually over two to three years. Color of title is a written instrument that purports to convey but is legally defective.",
+ drills:[
+  {type:"pick",prompt:"Select what a short-term statute requires in addition to the ordinary elements.",
+   options:["Color of title","Payment of the taxes","Good faith belief","A recorded survey"],correct:[0,1],
+   why:"Color of title plus taxes, over a shorter period of roughly two to three years."},
+  {type:"mc",prompt:"A mistaken boundary encroacher fails under which approach?",
+   options:["The objective claim of right statute","The good faith claim of right statute","Neither; he prevails under both","The short-term statute automatically"],correct:2,
+   why:"He prevails under both the objective and the good faith approaches. It is the knowing squatter who fails the good faith test."},
+  {type:"mc",prompt:"Color of title is \u2014",
+   options:["good title","a recorded deed","a written instrument that purports to convey title but is legally defective","possession under a lease"],correct:2,
+   why:"It is the appearance of title, not title."}
+ ]},
+
+"tacking":{label:"Tacking",author:"W5 deck",
+ brief:"Tacking combines successive possessors' periods to reach the statutory period, and requires privity, meaning a legal relationship such as a gift or a sale, and not theft. An ouster or theft breaks the chain and restarts the clock. Only a majority of states allow tacking, and only the latest adverse possessor may invoke it.",
+ drills:[
+  {type:"mc",prompt:"One possessor ousts another and continues the occupation. Tacking \u2014",
+   options:["is allowed, since possession continued","fails for want of privity, and the clock restarts","is allowed in a majority of states","depends on good faith"],correct:1,
+   why:"Privity requires a gift or sale. Theft or ouster breaks the chain."},
+  {type:"mc",prompt:"Who may invoke tacking?",
+   options:["Any possessor in the chain","Only the latest adverse possessor","Only the first","The record owner"],correct:1,
+   why:"Only the latest, and only in the majority of states that permit it at all."}
+ ]},
+
+"tolling":{label:"Tolling for disability",author:"W5 deck",
+ brief:"The statute is tolled where the owner was under a disability at the time the cause of action accrued; a disability arising later does not toll. Disability includes minority, insanity, coma, and institutionalization, and in some states imprisonment. Tolling ends when the disability is removed or when the adverse possessor sells or gifts the property. For chattels, concealment after a period of open use tolls the statute.",
+ drills:[
+  {type:"mc",prompt:"The owner becomes incompetent three years after the possession began. The statute \u2014",
+   options:["is tolled from that date","is not tolled, because the disability arose after accrual","restarts","is suspended for three years"],correct:1,
+   why:"The disability must exist when the cause of action accrues."},
+  {type:"pick",prompt:"Select what ends disability tolling.",
+   options:["Removal of the disability","The adverse possessor's sale or gift of the property","The owner's death","Recording of a deed"],correct:[0,1],
+   why:"Either the disability ends or the possessor transfers."}
+ ]},
+
+"ap-effect":{label:"The effect of adverse possession",author:"W5 deck",
+ brief:"Good title vests in the adverse possessor holding the property when the statute of limitations expires, or jointly in joint possessors, who must act together. The title is original rather than derivative: it arises by operation of law when the owner's action is time-barred, and requires no deed.",
+ drills:[
+  {type:"mc",prompt:"Title acquired by adverse possession is \u2014",
+   options:["derivative, taken from the former owner","original, arising by operation of law and requiring no deed","equitable only","void against a later purchaser"],correct:1,
+   why:"It arises when the owner's action becomes time-barred, not by any conveyance."},
+  {type:"mc",prompt:"Who takes when the statute expires?",
+   options:["The first possessor in the chain","The possessor holding at expiration, or joint possessors jointly","The record owner's heirs","The state"],correct:1,
+   why:"The latest possessor, and possessors working together must act together."}
+ ]},
+"estate-years":{label:"Estate for years and the term certain",author:"DeGroff, Lesson 11; *Womack v. Hyche*",
+ brief:"An estate for years is a lease for a specified term. It requires an express agreement, for it cannot arise by implication; a term certain with a definite beginning and end; both dates calculable when the lease is made; and a writing where the term exceeds one year. What must be certain is the date termination will occur, not the certainty that the ending event will happen. \u201cFive years after my fiftieth birthday\u201d is valid; \u201cfive years after the next war ends\u201d is not.",
+ drills:[
+  {type:"pick",prompt:"Select the requirements for an estate for years.",
+   options:["An express agreement","A term certain, definite beginning and end","Both dates calculable when the lease is made","A writing where the term exceeds one year","Delivery of possession"],correct:[0,1,2,3],
+   why:"It cannot arise by implication, and the dates must be calculable at the outset."},
+  {type:"mc",prompt:"What exactly must be certain?",
+   options:["That the ending event will occur","The date on which termination will take place","The amount of rent","The identity of the tenant"],correct:1,
+   why:"Womack: not the certainty of the happening of the event, but the certainty of the date."},
+  {type:"mc",prompt:"\u201cAs long as the camp is run as a business for a profit\u201d is \u2014",
+   options:["a valid term certain","invalid, the date being as uncertain as a peace treaty's","a periodic tenancy","a tenancy at sufferance"],correct:1,
+   why:"Womack. The date the books would show a loss is unascertainable."}
+ ]},
+
+"renewal-covenants":{label:"Renewal covenants",author:"*Womack v. Hyche*",
+ brief:"A general covenant to renew is satisfied by one renewal and confers no more unless further renewals are clearly and expressly provided for. A multiple-renewal provision too indefinite to enforce gives one renewal only. A general covenant is not carried into the renewal lease, since that would create a perpetuity. Perpetual leases are disfavored, and no right to repeated renewals arises unless the parties said so in plain and unambiguous terms.",
+ drills:[
+  {type:"mc",prompt:"A lease gives a general covenant to renew, with no number stated. The tenant may renew \u2014",
+   options:["indefinitely","once","twice","as long as he pays rent"],correct:1,
+   why:"One renewal, unless further renewals are clearly and expressly provided for."},
+  {type:"mc",prompt:"Why is a renewal covenant not carried into the renewal lease?",
+   options:["The statute of frauds","It would create a perpetuity","The rent would change","The tenant would hold over"],correct:1,
+   why:"Perpetual leases are not favored, so renewal rights do not bootstrap."}
+ ]},
+
+"periodic":{label:"Periodic tenancy and its creation",author:"W5 deck; *Arbenz v. Exley*",
+ brief:"A periodic tenancy is a lease for a specified period continuing indefinitely, period to period, unless properly terminated. It requires no definite end date and a calculable period, usually set by the rent intervals. It is a single tenancy of indefinite duration and the modern law's tenancy of preference. Where rent is reserved by one term but paid in another, the reserved term sets the period, so annual rent payable monthly yields a year-to-year tenancy.",
+ drills:[
+  {type:"mc",prompt:"Rent is reserved at $700 per year, payable monthly. The period is \u2014",
+   options:["month to month","year to year","weekly","indefinite"],correct:1,
+   why:"The reserved term controls over the payment term."},
+  {type:"pick",prompt:"Select the ways a periodic tenancy arises by operation of law.",
+   options:["An attempted estate for years had an uncertain end date","The SoF defeats an estate for years over a year but a shorter period is calculable","An estate for years ends and a holdover pays rent the landlord accepts","The parties sign a deed"],correct:[0,1,2],
+   why:"Three routes by operation of law, besides express agreement."},
+  {type:"mc",prompt:"At common law a failed estate for years was presumed to be \u2014",
+   options:["a periodic tenancy","a tenancy at will","a tenancy at sufferance","void"],correct:1,
+   why:"Today a periodic tenancy is presumed if there is any basis for setting a period. The presumption has flipped."}
+ ]},
+
+"periodic-notice":{label:"Notice to end a periodic tenancy",author:"W5 deck",
+ brief:"Termination requires six months' notice for a tenancy from year to year or longer, and one full period for a shorter period. Notice is effective only to terminate at the end of a period, never at an intermediate point, so notice given too close to a boundary pushes termination to the close of the following period.",
+ drills:[
+  {type:"mc",prompt:"A year-to-year tenancy requires how much notice?",
+   options:["One month","One full year","Six months","Thirty days"],correct:2,
+   why:"Six months where the period is a year or longer; one full period where it is shorter."},
+  {type:"mc",prompt:"Notice is served too near the end of the period. Termination takes effect \u2014",
+   options:["immediately","at the next period boundary anyway","at the close of the following period","never"],correct:2,
+   why:"Notice can only terminate at the end of a period, so a late notice slips to the next one."}
+ ]},
+
+"tenancy-will":{label:"Tenancy at will",author:"DeGroff, Lesson 11; W5 and W6 decks",
+ brief:"A tenancy at will continues only as long as both parties agree and may be terminated by either at any time. It is the common law default and, under modern law, the tenancy of last resort, reached only where no other kind can reasonably be inferred. A statute requiring notice to terminate applies only to tenancies expressly at will; a tenant at will by implication takes the common law's reasonable notice to quit.",
+ drills:[
+  {type:"mc",prompt:"A statute requires ten days' notice to end a tenancy at will. The tenancy arose by implication. What notice is due?",
+   options:["Ten days under the statute","Reasonable notice at common law","None","Thirty days"],correct:1,
+   why:"Womack limits such statutes to tenancies expressly at will."},
+  {type:"mc",prompt:"A tenant mistakenly exercises a renewal option that was not there, and the landlord keeps accepting rent. The result is \u2014",
+   options:["an estate for years","a periodic tenancy","a tenancy at will","a tenancy at sufferance"],correct:2,
+   why:"The W5 deck calls this the Womack Rule. Treat the label as the reviewer's, not the professor's."},
+  {type:"pick",prompt:"Select the implication routes the decks give for a tenancy at will.",
+   options:["A rent-free arrangement","Pay what and when you can","At-will employment housing","An express written lease for three years"],correct:[0,1,2],
+   why:"The handout and the two decks enumerate these differently; the handout's arity controls."}
+ ]},
+
+"sufferance":{label:"Tenancy at sufferance and statutory tenancy",author:"W5 deck; DeGroff, Lesson 11",
+ brief:"A tenancy at sufferance is not a tenancy at all but the status of a tenant who entered lawfully under a valid lease and remains after it ends, before the landlord acts. The landlord may treat him as a trespasser and evict, or accept rent, which creates a periodic tenancy by implication. A statutory tenancy is a creation of statute, arising for example in public housing, and is governed by the statute.",
+ drills:[
+  {type:"mc",prompt:"A holdover remains and the landlord accepts rent. The status becomes \u2014",
+   options:["an estate for years","a periodic tenancy by implication","a tenancy at will","trespass"],correct:1,
+   why:"Accepting rent is the landlord's election, and it converts the status."},
+  {type:"mc",prompt:"Why is \u201ctenancy\u201d at sufferance a misnomer?",
+   options:["The tenant pays no rent","It is a status, not a tenancy or lease","It lasts only a day","It requires a writing"],correct:1,
+   why:"It describes the holdover's position before the landlord acts."}
+ ]},
+
+"lease-license":{label:"Lease or license",author:"DeGroff, Lesson 11",
+ brief:"Exclusive possession is essential to a lease, which must permit exclusive possession and control of a definite location. An arrangement is a lease where one party divests himself of possession and the other comes into it, for a determinate time, at a fixed rental. An instrument that merely gives another the right to use premises for a specific purpose conveys no interest in land and is a mere license. Possession must be exclusive though not unregulated, and sufficiency of control is a question of degree. Labels are evidence, not conclusive.",
+ drills:[
+  {type:"pick",prompt:"Select the three marks of a lease.",
+   options:["One party divests himself of possession and the other comes into it","For a determinate time","At a fixed rental","The parties call it a lease"],correct:[0,1,2],
+   why:"The parties' label is evidence, not conclusive."},
+  {type:"mc",prompt:"A city parking agreement fixes rates, hours, purpose, and even uniforms. It is \u2014",
+   options:["a lease","a license","a sublease","a periodic tenancy"],correct:1,
+   why:"Rosewell. Control was pervasively retained, so the operator had only a right to use for a purpose."},
+  {type:"mc",prompt:"An agreement calls the grant a \u201cnon-exclusive privilege\u201d but specifies square footage on a named floor and a diagrammed lot for eighteen years. It is \u2014",
+   options:["a license, by its own label","a lease, the label being evidence only","a tenancy at will","a concession"],correct:1,
+   why:"Chicago Metro Car Rentals. Defined premises, term, and rent, with limited reserved controls."}
+ ]},
+
+"leasehold-nature":{label:"The nature of a leasehold",author:"DeGroff, Lesson 11; W6 deck",
+ brief:"Non-freehold estates have historically been treated as personalty, a chattel real, which governs who takes at the tenant's death and whether statutes about realty reach leases. A leasehold is both contract and conveyance, and principles of both apply, though not necessarily when reason would suggest. Privity of contract runs from formation until the lease ends; privity of estate exists where the leasehold and the reversion stand immediately together, and at common law began only on entry.",
+ drills:[
+  {type:"mc",prompt:"A leasehold treated as personalty is called \u2014",
+   options:["a freehold","a chattel real","a corporeal hereditament","an incorporeal estate"],correct:1,
+   why:"The classification governs succession at death and the reach of statutes about realty."},
+  {type:"mc",prompt:"At common law, when did privity of estate begin?",
+   options:["At signing","On the lessee's entry","At the first rent payment","At the end of the term"],correct:1,
+   why:"Until entry the tenant held a future interest and the parties were not in privity of estate."},
+  {type:"mc",prompt:"Rent as an incident of the estate meant that a tenant who never took possession \u2014",
+   options:["owed the full rent","breached the contract only, and not the rent obligation","owed nothing at all","forfeited the lease"],correct:1,
+   why:"Damages were the contract rent less what a replacement tenant would pay. Most jurisdictions now require rent regardless of entry."}
+ ]},
+
+"sof-lease":{label:"Statute of Frauds and what arises on invalidation",author:"DeGroff, Lesson 11",
+ brief:"A lease for more than one year must be in writing; one for a year or less need not be. Where the Statute of Frauds invalidates such a lease, the parties are not left without a tenancy: a periodic tenancy arises by operation of law if a period of a year or less is calculable, and otherwise a tenancy at will. Unless the lease provides otherwise, rent survives destruction of the building, because the estate in the land survives it.",
+ drills:[
+  {type:"mc",prompt:"The SoF defeats a three-year oral lease, but rent is monthly. The result is \u2014",
+   options:["no tenancy at all","a month-to-month periodic tenancy","a tenancy at sufferance","an estate for years"],correct:1,
+   why:"Invalidation produces a lesser tenancy rather than none, where a period is calculable."},
+  {type:"mc",prompt:"Fire destroys the building and the lease is silent. Rent \u2014",
+   options:["abates entirely","continues, the estate in the land surviving","is halved","is suspended for repairs"],correct:1,
+   why:"Rent was an incident of the estate, and the estate is in the land."}
+ ]},
+
+"duty-deliver":{label:"Duty to deliver possession",author:"W6 deck; *Adrian v. Rabinowitz*",
+ brief:"Every lease carries an implied duty to deliver legal possession. Whether physical possession must also be delivered splits the states. Under the English rule, the majority, the landlord must put the tenant in actual possession and oust a holdover, because that is what the parties reasonably intend \u2014 a legal right is worth little without possession. Under the American rule, the minority, the parties must contract for actual possession expressly, on grounds of freedom of contract and because the lessee is best placed to act against a holdover.",
+ drills:[
+  {type:"mc",prompt:"A prior tenant holds over and blocks the new tenant. Under the English rule the landlord \u2014",
+   options:["owes nothing","must oust the holdover","may terminate the lease","must refund the deposit only"],correct:1,
+   why:"The English rule, the majority, implies a duty to deliver actual as well as legal possession."},
+  {type:"mc",prompt:"The American rule rests on \u2014",
+   options:["the reasonable intent of the parties","freedom of contract, and that the lessee is most directly harmed and best placed to act","the statute of frauds","the covenant of quiet enjoyment"],correct:1,
+   why:"Absent an express term, the only duty is to deliver legal possession."},
+  {type:"mc",prompt:"Damages for failure to deliver possession are \u2014",
+   options:["lost profits","the difference between actual rental value and the rent reserved for the period of deprivation","the full term's rent","nominal only"],correct:1,
+   why:"Absent special circumstances communicated at contracting. Lost profits are ordinarily too uncertain."}
+ ]},
+
+"quiet-enjoyment":{label:"The covenant of quiet enjoyment",author:"W6 deck; *Echo Consulting*",
+ brief:"A covenant of quiet enjoyment is implied in every lease. The landlord warrants that no one with a superior right will disturb the tenant, undertakes to defend against such disturbance, and promises not to evict the tenant himself. It runs against the landlord's own interference, anyone deriving title through him, and a third party with paramount title. It is not breached by trespassers who lack title, and the mere existence of a superior right breaches nothing until possession is actually disturbed.",
+ drills:[
+  {type:"pick",prompt:"Select the disturbances the covenant protects against.",
+   options:["The landlord's own interference","Anyone deriving title through the landlord","A third party with paramount title","A trespasser with no title"],correct:[0,1,2],
+   why:"Trespassers and wrongdoers who lack title do not breach the covenant."},
+  {type:"mc",prompt:"A stranger turns out to hold paramount title but has done nothing. Is the covenant breached?",
+   options:["Yes, on discovery of the superior right","No; possession must actually be disturbed first","Yes, if the tenant learns of it","Only if the landlord knew"],correct:1,
+   why:"The superior right alone is not a breach."},
+  {type:"mc",prompt:"Under the modern minority view, interference short of constructive eviction gives \u2014",
+   options:["nothing","damages without vacating","automatic termination","specific performance only"],correct:1,
+   why:"Echo extends the covenant to substantial interference with beneficial use, with damages, prospectively only."}
+ ]},
+
+"actual-eviction":{label:"Actual and partial actual eviction",author:"*Echo Consulting*; *Village Commons*",
+ brief:"An actual eviction is the landlord's physical dispossession of the tenant, whole or partial. Partial actual eviction is deprivation of physical possession of some portion, including denial of access, and a landlord cannot apportion a tenant's rights under a lease. The tenant hires the premises as an entirety, so depriving him of any part forfeits the landlord's right to any rent for that period, and the tenant need not vacate to assert it. A claim fails where the lease gave no right to the particular access denied.",
+ drills:[
+  {type:"mc",prompt:"A tenant is partially actually evicted. His rent obligation for that period is \u2014",
+   options:["reduced proportionally","extinguished entirely, the landlord not being allowed to apportion by his own wrong","unchanged","suspended only if he vacates"],correct:1,
+   why:"He hired the premises as an entirety. And he need not vacate to assert it."},
+  {type:"mc",prompt:"The lease grants a \u201ccommon right of access.\u201d The landlord closes one of two doors. The claim \u2014",
+   options:["succeeds, any denial of access being partial eviction","fails, the right being shared and reasonable access remaining","succeeds only if rent is withheld","depends on the lease term"],correct:1,
+   why:"Echo. A common right means access in common with the landlord, satisfied by reasonable access."}
+ ]},
+
+"constructive-eviction":{label:"Constructive eviction",author:"W6 deck; *Echo*; *Village Commons*",
+ brief:"Constructive eviction requires an act or omission of the landlord, which may be a failure to perform a covenant, a statutory duty, or a duty implied from the circumstances; interference so substantial that it is tantamount to dispossession, the premises being essentially unusable; conditions permanent or perpetually recurring; notice to the landlord requesting a cure, with reasonable time; and the tenant vacating within a reasonable time. Transitory and fleeting interference is a trespass, giving damages only.",
+ drills:[
+  {type:"pick",prompt:"Select the elements of constructive eviction.",
+   options:["An act or omission of the landlord","Interference tantamount to dispossession","Conditions permanent or perpetually recurring","Notice requesting a cure","The tenant vacates in reasonable time","A written demand for rent abatement"],correct:[0,1,2,3,4],
+   why:"The W6 deck's mnemonic is Slackers Can Carelessly Neglect Vineyards. Treat the device as the reviewer's."},
+  {type:"mc",prompt:"Intermittent construction noise that eventually stops is \u2014",
+   options:["constructive eviction","a trespass, giving damages only","partial actual eviction","a breach of habitability"],correct:1,
+   why:"Transitory and fleeting interference is not eviction."},
+  {type:"mc",prompt:"Water intrusions recur over two years. The landlord argues each was temporary. The court \u2014",
+   options:["agrees; each incident is judged alone","finds recurrence defeats transitoriness","requires expert proof","requires the tenant to stay"],correct:1,
+   why:"Village Commons. Temporariness is judged across the pattern, not incident by incident."},
+  {type:"mc",prompt:"Under the majority remedy rule, a constructively evicted tenant may \u2014",
+   options:["withhold all rent, constructive eviction being a total rent defense","withhold half the rent","recover damages but must keep paying","only sue for an injunction"],correct:0,
+   why:"A minority also allows recovery of the loss of value in addition to the total rent defense."}
+ ]},
+
+"habitability":{label:"Implied warranty of habitability",author:"DeGroff, Lessons 13\u201314",
+ brief:"At common law the tenant, not the landlord, had the duty to maintain, and the landlord warranted nothing about fitness except to disclose latent defects and repair major structural defects. Most jurisdictions now imply a warranty of habitability in a residential lease: the premises are fit for human habitation at the start and remain so throughout, the warranty cannot be waived, and breach requires notice and a reasonable opportunity to repair. Because the tenant need not vacate, it largely displaces constructive eviction in residential leases.",
+ drills:[
+  {type:"mc",prompt:"The chief practical advantage of the warranty over constructive eviction is that \u2014",
+   options:["damages are higher","the tenant need not vacate to assert it","no notice is required","it applies to commercial leases"],correct:1,
+   why:"That is why it has largely displaced constructive eviction for residential tenants."},
+  {type:"mc",prompt:"May a residential tenant waive the warranty in the lease?",
+   options:["Yes, with consideration","Yes, if the rent is reduced","No; it cannot be waived","Only in writing"],correct:2,
+   why:"Contrast the eviction defense, which survived an exclusive-remedy clause by construction rather than by non-waivability."},
+  {type:"mc",prompt:"At common law, the landlord's only duties as to condition were \u2014",
+   options:["to keep the premises fit throughout","to disclose latent defects and repair major structural defects","to repair everything on notice","none at all"],correct:1,
+   why:"The tenant otherwise bore the duty to maintain, the lease being treated as a conveyance."}
+ ]},
+
+"dependence":{label:"Dependence against independence of covenants",author:"W6 deck",
+ brief:"Under the majority rule, covenants material to inducing the tenant to enter the lease, above all quiet enjoyment and any warranty of habitability or suitability, are mutually dependent with the lease itself, so a significant breach may abate the rent in whole or part, or amount to a constructive eviction permitting termination. Under the minority rule the covenants are independent: the tenant may sue for damages, an injunction, or specific performance, but may not withhold rent unilaterally.",
+ drills:[
+  {type:"mc",prompt:"Under the minority rule, a tenant facing a serious breach may \u2014",
+   options:["withhold rent","abate rent partially","sue, but not withhold rent unilaterally","terminate at once"],correct:2,
+   why:"Independence means the rent obligation stands on its own; the remedy is an action, not self-help."},
+  {type:"mc",prompt:"Independence of covenants is the corollary of which older rule?",
+   options:["Caveat emptor","Rent as an incident of the estate","The statute of frauds","The rule in Shelley's Case"],correct:1,
+   why:"If rent attaches to the estate rather than the bargain, the landlord's breach does not touch it."}
+ ]},
+
+"abandonment":{label:"Tenant abandonment and mitigation",author:"W6 deck",
+ brief:"At common law the tenant's departure was an offer to surrender the premises in exchange for ending the lease. The landlord could do nothing and sue periodically for rent, accept the return or re-let as an implied acceptance, or in some states re-let on the tenant's behalf after notice, keeping him liable for the shortfall. Under the modern rule the landlord must accept the return and make reasonable efforts to re-let and mitigate, though he need not let below fair market value or for a wholly different use.",
+ drills:[
+  {type:"pick",prompt:"Select the landlord's options at common law on abandonment.",
+   options:["Do nothing and sue periodically for rent","Accept the return or re-let, an implied acceptance","Re-let on the tenant's behalf after notice, in some states","Seize the tenant's other property"],correct:[0,1,2],
+   why:"Three options. The third keeps the original tenant liable for any shortfall."},
+  {type:"mc",prompt:"Under the modern rule the landlord makes no effort to re-let. The tenant owes \u2014",
+   options:["the full rent","nothing","the difference between the original rent and the fair market rent he would have obtained","half the rent"],correct:2,
+   why:"Failure to mitigate costs the landlord the amount he could have recovered."},
+  {type:"mc",prompt:"The landlord makes reasonable efforts but finds no tenant. The tenant owes \u2014",
+   options:["nothing","the full rent","the difference against market","only until the next period"],correct:1,
+   why:"Reasonable efforts are all that is required; he need not let below fair market value."}
+ ]},
+
+"transfers":{label:"Assignments and subleases",author:"Supplement, ch. 9.D",
+ brief:"Absent a restriction, both parties may transfer. A restriction is enforced but strictly construed, because restraints on alienation are disfavored, so a bar on assignment does not bar subletting; and such restraints may be waived, as by accepting rent from the transferee. A transfer of the whole remaining term is an assignment; of less, even by a day, a sublease, because the tenant keeps a reversion. Covenants bind a transferee in privity of estate only if they touch and concern the land.",
+ drills:[
+  {type:"mc",prompt:"T1 transfers all but the last sixteen days of the term. This is \u2014",
+   options:["an assignment","a partial assignment","a sublease","a novation"],correct:2,
+   why:"Any retained reversion, however short, makes it a sublease."},
+  {type:"mc",prompt:"After T1 assigns to T2, the landlord may collect rent from \u2014",
+   options:["T1 only","T2 only","both: T1 on the contract, T2 on the estate","neither"],correct:2,
+   why:"Privity of contract survives with T1; privity of estate arises with T2, and rent touches and concerns."},
+  {type:"mc",prompt:"After T1 subleases to T2, the landlord may collect rent from \u2014",
+   options:["T2, who occupies","T1 only, there being no privity with T2","both","neither"],correct:1,
+   why:"T1's retained reversion stands between T2 and the landlord, so there is no privity of either kind."},
+  {type:"mc",prompt:"A novation requires \u2014",
+   options:["the landlord's assent to the assignment","the landlord's express release of T1 and T2's agreement to assume his obligations","a writing only","recording"],correct:1,
+   why:"Mere assent to an assignment does not work a novation."},
+  {type:"mc",prompt:"Which covenant does NOT touch and concern the land?",
+   options:["To pay rent","To supply utilities with the premises","To obtain sports tickets for the other party","To maintain the appliances"],correct:2,
+   why:"A personal covenant binds only parties to the contract."}
+ ]},
+
+"selection-tenants":{label:"Selection of tenants and the Fair Housing Act",author:"42 U.S.C. \u00a7 3604(c); *Jancik*",
+ brief:"It is unlawful to make, print, or publish any notice, statement, or advertisement respecting the sale or rental of a dwelling that indicates any preference, limitation, or discrimination based on race, color, religion, sex, handicap, familial status, or national origin. Whether a statement indicates a preference is judged objectively, by what it would suggest to an ordinary reader. No subjective intent to discriminate is necessary, though evidence of intent remains relevant and supplies an alternative route.",
+ drills:[
+  {type:"mc",prompt:"What standard governs whether an advertisement \u201cindicates\u201d a preference?",
+   options:["The landlord's subjective intent","The objective ordinary reader","A reasonable landlord","Actual discouragement proven by testimony"],correct:1,
+   why:"The statute is violated by any ad that would discourage an ordinary reader of a protected group from answering it."},
+  {type:"mc",prompt:"Is subjective intent to discriminate required?",
+   options:["Yes, always","No, but evidence of it is still relevant","Yes, for advertisements only","No, and evidence of it is inadmissible"],correct:1,
+   why:"Intent bears on whether the words in fact indicate a preference, and supplies an alternative route to a violation."},
+  {type:"mc",prompt:"Advertising for a \u201cmature person\u201d is \u2014",
+   options:["a per se violation","not a violation in itself, but indicates a possible one calling for further proceedings where context suggests discrimination","always lawful","unlawful only if the landlord admits intent"],correct:1,
+   why:"The term is flagged by the implementing regulation, and in Jancik the context confirmed the preference."}
+ ]},
+};
+
+TOPICS["two-innocents"] = {label:"Which of two innocents enabled the wrong",author:"cross-cutting",
+ brief:"Where one of two innocent persons must suffer loss by a third's fraud, the loss falls on the one whose act or omission enabled the fraud. That maxim drives O'Connor, Zendman, and \u00a7 2-403 alike, and it explains why Porter's owner, who hired investigators and consigned for home display only, was not estopped, while Zendman's owner, who acquiesced in a sales-window display and pocketed the proceeds, was.",
+ drills:[
+  {type:"mc",prompt:"The maxim about two innocents allocates the loss to \u2014",
+   options:["the one who paid value","the one whose act or omission enabled the fraud","the original owner always","the later purchaser always"],correct:1,
+   why:"It is the organizing idea of the whole bona fide purchase unit, and it reappears in the good-faith line in accession."},
+  {type:"pick",prompt:"Select the doctrines the maxim drives.",
+   options:["Common law apparent authority","Entrustment under \u00a7 2-403","The good-faith line in accession","The rule against perpetuities"],correct:[0,1,2],
+   why:"Perpetuities has nothing to do with allocating loss between innocents."}
+ ]};
+
+TOPICS["good-faith-axis"] = {label:"Good faith as the cross-unit variable",author:"cross-cutting",
+ brief:"Good faith decides outcomes across three doctrines at once. In accession it separates the improver who takes title from the one who forfeits his labor. In confusion of goods it separates the mixer who is protected from the one who loses everything without an accounting. And in Gambino it separates the innocent purchaser who may improve his way to title from the thief who never can.",
+ drills:[
+  {type:"pick",prompt:"Select the doctrines governed by the good faith variable.",
+   options:["Accession","Confusion of goods","The thief-improver rule","The notice period for a periodic tenancy"],correct:[0,1,2],
+   why:"Notice periods turn on the length of the period, not on anyone's state of mind."},
+  {type:"mc",prompt:"Why can accession validate a chain that \u00a7 2-403 cannot?",
+   options:["It is a federal rule","It vests title in an innocent improver who bought from a thief, where the Code leaves him nothing","It applies only to land","It requires no good faith"],correct:1,
+   why:"Title moves by operation of law on the improvement, not by the transfer."}
+ ]};
+
+const DATA = {
+ rounds:[
+  {name:"Round one \u2014 foundations",base:200,dailyDoubles:1,categories:[
+   {title:"Who owns it, ultimately?",clues:[
+    {t:"title-division",k:"element list",clue:"The three holders in the course's division of title.",response:"Who are God as Owner, God as Sovereign, and man as steward?"},
+    {t:"title-division",k:"exact wording",clue:"The kind of title man holds \u2014 present and historical, and accountable.",response:"What is temporal title?"},
+    {t:"title-division",k:"definition",clue:"What God holds as Creator, which man never does.",response:"What is absolute and transcendental title?"},
+    {t:"dominion-limits",k:"element list",clue:"The unit to which the dominion grant runs, which is what makes property private rather than collective.",response:"What is the family unit?",note:"Of the four limits, this is the one that does the work in a property course."},
+    {t:"dominion-limits",k:"distinction",clue:"Dominion runs over the earth's creatures but expressly not over these.",response:"What are fellow men?"}
+   ]},
+   {title:"Right, or grant?",clues:[
+    {t:"natural-civil",k:"exact wording",clue:"Bentham's formulation of the relationship between the two, which are born together and die together.",response:"What are property and law?"},
+    {t:"natural-civil",k:"attribution",clue:"He held that rights to obtain and hold property are the common gift of mankind, not derived from the sovereign.",response:"Who is Locke?"},
+    {t:"natural-civil",k:"definition",clue:"On the civil side, property is nothing but this, and it is the work of law.",response:"What is a basis of expectation?"},
+    {t:"seligman",k:"element list",clue:"Seligman rejects occupation, natural rights, and labor, and settles instead on this.",response:"What is social utility?"},
+    {t:"seligman",k:"distinction",clue:"His answer to the labor theory: no one created this, and society holds a mortgage on all that is produced.",response:"What is the land?"}
+   ]},
+   {title:"The bundle",clues:[
+    {t:"ownership-bundle",k:"definition",clue:"The metaphor for ownership that explains why a lesser interest gets the same protection.",response:"What is a bundle of rights?"},
+    {t:"ownership-bundle",k:"exact wording",clue:"The incident naming the right to use the thing.",response:"What is usus?"},
+    {t:"ownership-bundle",k:"exact wording",clue:"The incident naming the right to the thing's products.",response:"What is fructus?"},
+    {t:"ownership-bundle",k:"exact wording",clue:"The incident naming the right to consume the thing entirely, if it is consumable.",response:"What is abusus?"},
+    {t:"property-classes",k:"distinction",clue:"Land and whatever is permanently attached to it, in the law's older vocabulary.",response:"What are immovables?"}
+   ]},
+   {title:"What cannot be owned",clues:[
+    {t:"property-classes",k:"distinction",clue:"A right of property realizable only by suit, though a paper may represent it.",response:"What is a chose in action?"},
+    {t:"res-communes",k:"definition",clue:"Air, running water, the sea and its shores share this classification.",response:"What are res communes?"},
+    {t:"res-communes",k:"definition",clue:"The reason such things cannot be privately owned \u2014 this cannot be exercised over them.",response:"What is exclusive control?"},
+    {t:"res-communes",k:"distinction",clue:"What may still be acquired in such a thing, airwaves being the stock example.",response:"What is a right of use?"},
+    {t:"gov-grounds",k:"definition",clue:"The classification of wild animals that makes them the premise of the capture material.",response:"What is res communes, or ferae naturae belonging to all in common?"}
+   ]},
+   {title:"May the state regulate?",clues:[
+    {t:"gov-grounds",k:"attribution",clue:"He supplied the principle that civil law may restrict what natural law merely permits.",response:"Who is Pothier?"},
+    {t:"gov-grounds",k:"distinction",clue:"What civil law may not do to the natural law, as distinct from restricting it.",response:"What is contradict what it commands or forbids?"},
+    {t:"gov-grounds",k:"exact wording",clue:"The capacity in which the regulatory power is held \u2014 not as a prerogative, but as this, for the people.",response:"What is a trust?"},
+    {t:"gov-grounds",k:"element list",clue:"The independent ground resting on preservation of a valuable food supply.",response:"What is the police power?"},
+    {t:"geer",k:"element list",clue:"Geer's two independent grounds for the state's power over game.",response:"What are state common ownership in trust and the police power?"}
+   ]},
+   {title:"From Geer to Douglas",clues:[
+    {t:"geer",k:"exact wording",clue:"The Latin tag for the qualified property a captor takes under Geer.",response:"What is propter privilegium?"},
+    {t:"geer",k:"attribution",clue:"Dissenting in Geer, he would vest title only when man by his labor or skill brings the animal under control.",response:"Who is Justice Field?",note:"Douglas later adopts this dissent, which is why it is worth knowing by name."},
+    {t:"douglas-burtt",k:"exact wording",clue:"What Douglas calls state ownership of free-swimming fish \u2014 a nineteenth-century one of these.",response:"What is a legal fiction?"},
+    {t:"douglas-burtt",k:"definition",clue:"After Douglas, the only question about a state game law is whether the state conformed its exercise of this to federal law and the Constitution.",response:"What is the police power?"},
+    {t:"douglas-burtt",k:"definition",clue:"In Burtt, the moment of taking \u2014 when the fish were retrieved from the water into this.",response:"What is the boat?"}
+   ]}
+  ]},
+
+  {name:"Round two \u2014 occupancy and gifts",base:200,dailyDoubles:1,categories:[
+   {title:"Occupancy \u2014 the rule",clues:[
+    {t:"occupancy-elements",k:"element list",clue:"The first element: an unequivocal, manifest one of these, to appropriate the animal.",response:"What is an intention?"},
+    {t:"occupancy-elements",k:"element list",clue:"The second element: certain control depriving the animal of this.",response:"What is its natural liberty?"},
+    {t:"occupancy-elements",k:"distinction",clue:"However hot, long, or expensive, this alone vests no right whatever.",response:"What is pursuit?"},
+    {t:"occupancy-elements",k:"distinction",clue:"Two things occupancy does not require, despite intuition.",response:"What are manual seizure and killing the animal?"},
+    {t:"occupancy-elements",k:"distinction",clue:"On the handout's structure, what Liesner shares with Pierson, leaving only the specific test to differ.",response:"What are the elements?"}
+   ]},
+   {title:"The two tests",clues:[
+    {t:"pierson-test",k:"element list",clue:"Pierson's first branch is conjunctive: mortally wound the animal and do this.",response:"What is maintain pursuit?"},
+    {t:"pierson-test",k:"exact wording",clue:"Pierson's trapping branch requires that escape be this one word.",response:"What is impossible?"},
+    {t:"pierson-test",k:"distinction",clue:"Of the two tests, this is the stricter, and the one to argue first.",response:"What is the Pierson test?"},
+    {t:"liesner-test",k:"exact wording",clue:"Liesner's first branch: escape is this.",response:"What is highly improbable?"},
+    {t:"liesner-test",k:"exact wording",clue:"Liesner's second branch: possession is this.",response:"What is practically inevitable?"}
+   ]},
+   {title:"Vesting, land, and custom",clues:[
+    {t:"vesting",k:"definition",clue:"Once control makes possession practically inevitable, this accrues and cannot be divested by another's killing the animal.",response:"What is a vested property interest?"},
+    {t:"vesting",k:"distinction",clue:"The older civil law waited for this before vesting, unlike the common law of the chase.",response:"What is actual taking?"},
+    {t:"ratione-soli",k:"definition",clue:"The doctrine giving a landowner constructive possession of the wild animals on his soil.",response:"What is ratione soli?"},
+    {t:"custom-ghen",k:"element list",clue:"Ghen's fourth requirement: without the usage, this could not exist.",response:"What is the industry?"},
+    {t:"custom-ghen",k:"distinction",clue:"Why custom governed in Ghen but not in Pierson \u2014 one involved an industry, the other this.",response:"What is sport?",note:"In Pierson custom appears only in Livingston's dissent."}
+   ]},
+   {title:"A valid gift",clues:[
+    {t:"gift-elements",k:"definition",clue:"A gift is a voluntary present transfer of title with this absent.",response:"What is consideration?"},
+    {t:"gift-elements",k:"distinction",clue:"If there is consideration, the transaction is not a gift but this.",response:"What is a sale?"},
+    {t:"gift-elements",k:"element list",clue:"The three requirements the handout nests under \u201cpresent transfer of title.\u201d",response:"What are present intent, delivery, and acceptance?"},
+    {t:"gift-elements",k:"distinction",clue:"An intent to transfer title in the future is not a gift but this, unenforceable without consideration.",response:"What is a promise?"},
+    {t:"gift-elements",k:"definition",clue:"Acceptance is presumed where the gift is unconditional and this.",response:"What is beneficial?"}
+   ]},
+   {title:"Delivery",clues:[
+    {t:"delivery-forms",k:"element list",clue:"Delivery of the means to obtain possession \u2014 a safe combination, or a car key.",response:"What is constructive delivery?"},
+    {t:"delivery-forms",k:"element list",clue:"Delivery of a thing representing the gift, such as one cow standing for a herd.",response:"What is symbolic delivery?"},
+    {t:"delivery-forms",k:"distinction",clue:"The form of delivery that carries a caution about present intent.",response:"What is symbolic delivery?"},
+    {t:"delivery-degree",k:"exact wording",clue:"On the strict side, delivery must be as perfect as the nature of the property and these will reasonably permit.",response:"What are the circumstances and surroundings of the parties?"},
+    {t:"delivery-degree",k:"distinction",clue:"On the lax side, the Restatement approach requires strong evidence of present intent plus this.",response:"What is any step toward delivery?"}
+   ]},
+   {title:"Inter vivos and causa mortis",clues:[
+    {t:"inter-vivos",k:"definition",clue:"After acceptance, an inter vivos gift becomes this.",response:"What is irrevocable?"},
+    {t:"causa-mortis",k:"definition",clue:"The expectation on which a gift causa mortis is premised \u2014 a specific cause of death, relatively soon.",response:"What is imminent death?",note:"A generalized fear of death will not do."},
+    {t:"causa-mortis",k:"element list",clue:"The two events that automatically revoke a gift causa mortis.",response:"What are the donor surviving the expected peril, and the donee dying before the donor?"},
+    {t:"causa-mortis",k:"distinction",clue:"A valid gift causa mortis will do this to a written will.",response:"What is supersede it?"},
+    {t:"causa-mortis",k:"application",clue:"Expecting to die of cancer, a donor gives, then is struck by a bus without ever recovering. The gift does this.",response:"What is stand?",note:"Death from an unanticipated cause, with no recovery from the anticipated peril, revokes nothing."}
+   ]}
+  ]},
+
+  {name:"Round three \u2014 bona fide purchase",base:400,dailyDoubles:2,categories:[
+   {title:"Caveat emptor",clues:[
+    {t:"caveat-emptor",k:"exact wording",clue:"The Latin maxim stating the general rule of the unit.",response:"What is caveat emptor?"},
+    {t:"caveat-emptor",k:"definition",clue:"A buyer takes only such title or interest as the seller has and is authorized to do this.",response:"What is transfer?"},
+    {t:"caveat-emptor",k:"exact wording",clue:"No one may be deprived of his property except by his own voluntary act or by this.",response:"What is operation of law?"},
+    {t:"caveat-emptor",k:"distinction",clue:"A purchaser from a mere bailee stands no better than a purchaser from this person.",response:"Who is a thief?"},
+    {t:"bfp-elements",k:"element list",clue:"The three elements of a bona fide purchaser.",response:"What are a purchaser for value, in good faith, without knowledge of the fraud or defect?"}
+   ]},
+   {title:"Void or voidable",clues:[
+    {t:"void-voidable",k:"distinction",clue:"The kind of title that confers no power to transfer anything to anyone, ever.",response:"What is void title?"},
+    {t:"void-voidable",k:"distinction",clue:"The kind of title whose holder can pass good title to a BFP.",response:"What is voidable title?"},
+    {t:"void-voidable",k:"definition",clue:"The owner's power against a voidable-title holder, and the moment it is lost.",response:"What is the power to avoid, lost on sale to a BFP?"},
+    {t:"void-voidable",k:"application",clue:"A swindler impersonates a rich man face to face and buys goods. The title he takes.",response:"What is voidable title?"},
+    {t:"gambino-thief",k:"distinction",clue:"A thief rebuilds a stolen car. In its enhanced condition, with substituted parts, it still belongs to this person.",response:"Who is the original owner?"}
+   ]},
+   {title:"The vendor's intention",clues:[
+    {t:"phelps-intent",k:"exact wording",clue:"Under Phelps, whether title passes is purely a question of this.",response:"What is the vendor's intention?"},
+    {t:"phelps-intent",k:"application",clue:"A swindler writes letters posing as an existing firm. The title that passes.",response:"What is none?",note:"Cundy v. Lindsay. The seller intended that firm and knew no one else."},
+    {t:"phelps-intent",k:"application",clue:"A fraudster claims to be the agent of a solvent principal and takes delivery. The title that passes.",response:"What is none?"},
+    {t:"phelps-intent",k:"distinction",clue:"Baehr's limit: the voidable-title principle has no application unless there was one of these.",response:"What is an actual sale?"},
+    {t:"phelps-intent",k:"application",clue:"Diamonds handed to a broker to show a customer, returnable within the hour, create this relationship rather than a sale.",response:"What is a mere agency, or bailment?"}
+   ]},
+   {title:"Apparent authority",clues:[
+    {t:"apparent-authority",k:"element list",clue:"The first element: the owner clothes the person disposing of the property with this.",response:"What is apparent title, or apparent authority to dispose of it?"},
+    {t:"apparent-authority",k:"exact wording",clue:"Where one of two innocent persons must suffer by a third's fraud, the loss falls on the one whose act or omission did this.",response:"What is enable the fraud?"},
+    {t:"zendman-scale",k:"exact wording",clue:"Zendman's formula for when the insufficient becomes sufficient \u2014 slight additional circumstances may do this.",response:"What is turn the scale?"},
+    {t:"zendman-scale",k:"element list",clue:"Three things that are not enough standing alone to estop the owner.",response:"What are delivery to a depositary, pledgee, or agent; that the possessor deals in similar goods; and that he may exhibit them to solicit offers?"},
+    {t:"zendman-scale",k:"application",clue:"What tipped Zendman: a month's acquiescence in this, unsegregated from goods held for sale.",response:"What is a public show-window display?"}
+   ]},
+   {title:"The Code",clues:[
+    {t:"ucc-voidable",k:"exact wording",clue:"A person with voidable title has power to transfer good title to this person.",response:"Who is a good faith purchaser for value?"},
+    {t:"ucc-voidable",k:"element list",clue:"Under \u00a7 2-403(1), the four circumstances that still leave the transferor with voidable rather than void title.",response:"What are deceit as to identity, a dishonored check, an agreed cash sale unpaid, and fraud punishable as larcenous?"},
+    {t:"ucc-voidable",k:"distinction",clue:"The sharpest divergence between Code and common law, void under Cundy but voidable under subsection (a).",response:"What is deceit by letter as to identity?"},
+    {t:"entrustment",k:"element list",clue:"Under \u00a7 2-403(2), what any entrusting to a merchant of that kind empowers him to transfer.",response:"What are all rights of the entruster?"},
+    {t:"entrustment",k:"distinction",clue:"Entrusting includes any delivery and any acquiescence, regardless of conditions and regardless of whether the dealing was this.",response:"What is larcenous?"}
+   ]},
+   {title:"Ordinary course, and after",clues:[
+    {t:"bioc",k:"element list",clue:"Four factors showing a purchase in the ordinary course.",response:"What are ordinary type of item, ordinary time and place, ordinary pricing, and ordinary purchase procedure?"},
+    {t:"bioc",k:"exact wording",clue:"A merchant's good faith is honesty in fact plus observance of these, in the trade.",response:"What are reasonable commercial standards of fair dealing?"},
+    {t:"porter-limits",k:"distinction",clue:"In Porter, the seller's day job, which defeated buyer-in-ordinary-course status.",response:"What is a delicatessen employee?"},
+    {t:"porter-limits",k:"application",clue:"Porter's answer to the argument that nobody in the art trade checks title.",response:"What is that commercial indifference to ownership is not excused?"},
+    {t:"shelter-replevin",k:"definition",clue:"The rule that good title, once cleansed, stays good down the chain, even for donees and takers with notice.",response:"What is the shelter rule?"}
+   ]}
+  ]},
+  {name:"Round four \u2014 accession and adverse possession",base:400,dailyDoubles:2,categories:[
+   {title:"Accession \u2014 requirements",clues:[
+    {t:"accession-elements",k:"element list",clue:"The first element, and an absolute condition: the possessor must be this.",response:"What is in good faith?"},
+    {t:"accession-elements",k:"element list",clue:"The second element: he must do this to the value of another's property.",response:"What is substantially increase it?"},
+    {t:"accession-elements",k:"distinction",clue:"A total change in character may be relevant, but this is the key inquiry.",response:"What is value?"},
+    {t:"accession-elements",k:"application",clue:"Of the deck's guideposts, the ratio that is likely not enough.",response:"What is 2:1?"},
+    {t:"accession-elements",k:"application",clue:"The ratio the deck treats as borderline \u2014 it could be enough.",response:"What is 6:1?"}
+   ]},
+   {title:"Adam, Ben, and Chris",clues:[
+    {t:"accession-outcomes",k:"application",clue:"Good faith, a 12:1 ratio. What happens to title.",response:"What is that it passes to the improver?"},
+    {t:"accession-outcomes",k:"application",clue:"Good faith, substantial improvement. The measure of what he owes the owner.",response:"What is the value of the thing at the time he gained possession?"},
+    {t:"accession-outcomes",k:"application",clue:"Bad faith, a 26:1 ratio. What he is liable for, down to the last detail.",response:"What is the whole painting, even the frame?"},
+    {t:"accession-outcomes",k:"application",clue:"Good faith, a 2:1 ratio. What he may keep when he returns the canvas.",response:"What is the frame, being severable?"},
+    {t:"accession-outcomes",k:"distinction",clue:"Whether the slight improver recovers for a non-severable improvement depends on this.",response:"What is the law of his state?"}
+   ]},
+   {title:"Damages, and mixing",clues:[
+    {t:"accession-damages",k:"exact wording",clue:"The controlling principle is not the excess of artificial over natural value, but this.",response:"What is the degree of such excess?"},
+    {t:"accession-damages",k:"distinction",clue:"The rejected test, unsatisfactory because a beam is traceable into a house and a board into an organ.",response:"What is identifiability by the senses?"},
+    {t:"accession-damages",k:"application",clue:"The owner of a stripped hull rebuilt into a $4,750 car recovers this.",response:"What is the scrap value of the hull when the improver bought it?"},
+    {t:"confusion-goods",k:"distinction",clue:"Willful intermixture gives the entire property to the invaded owner, and with this notably absent.",response:"What is any accounting?"},
+    {t:"good-faith-axis",k:"distinction",clue:"The variable that links confusion of goods, accession, and the thief-improver rule \u2014 of the highest importance in all three.",response:"What is good faith against bad faith?",note:"It also explains why accession can validate a chain \u00a7 2-403 could not."}
+   ]},
+   {title:"OCEAN",clues:[
+    {t:"ocean",k:"element list",clue:"So visible that anyone in the owner's shoes reasonably should know of it.",response:"What is openly, or notoriously?"},
+    {t:"ocean",k:"element list",clue:"Met without any serious interruption for the whole duration of the statute.",response:"What is continuously?"},
+    {t:"ocean",k:"element list",clue:"The possessor cannot share ownership rights with the true owner; he must act as the sole owner would.",response:"What is exclusively?"},
+    {t:"ocean",k:"element list",clue:"Asserting the rights of a true owner, inconsistent with the owner's, and crucially without this.",response:"What is permission?"},
+    {t:"ocean",k:"distinction",clue:"In Virginia's HAVEC, the letter corresponding to \u201cadversely.\u201d",response:"What is H, for hostile?"}
+   ]},
+   {title:"Which statute?",clues:[
+    {t:"ap-approaches",k:"distinction",clue:"Under the \u201cmere\u201d claim of right statute, the possessor's state of mind is this.",response:"What is irrelevant?"},
+    {t:"ap-approaches",k:"distinction",clue:"The approach under which a knowing encroacher fails.",response:"What is the good faith claim of right statute?"},
+    {t:"ap-approaches",k:"element list",clue:"The two additions a short-term statute requires beyond the ordinary elements.",response:"What are color of title and payment of the taxes?"},
+    {t:"ap-approaches",k:"definition",clue:"A written instrument that purports to convey title but is legally defective.",response:"What is color of title?"},
+    {t:"ap-approaches",k:"application",clue:"The usual length of a short-term statute.",response:"What is about two to three years?"}
+   ]},
+   {title:"Stopping and joining the clock",clues:[
+    {t:"tolling",k:"definition",clue:"The owner must be under a disability at this moment for the statute to be tolled.",response:"What is when the cause of action accrues?"},
+    {t:"tolling",k:"element list",clue:"Besides minority and insanity or coma, the disability some states add.",response:"What is imprisonment?"},
+    {t:"tacking",k:"definition",clue:"The requirement for tacking \u2014 a legal relationship such as gift or sale, but not theft.",response:"What is privity?"},
+    {t:"tacking",k:"distinction",clue:"Only this possessor may invoke tacking to make a claim.",response:"Who is the latest adverse possessor?"},
+    {t:"ap-effect",k:"distinction",clue:"Title by adverse possession is of this character, requiring no deed.",response:"What is original, rather than derivative?"}
+   ]}
+  ]},
+
+  {name:"Round five \u2014 landlord and tenant",base:600,dailyDoubles:2,categories:[
+   {title:"Making a lease",clues:[
+    {t:"selection-tenants",k:"definition",clue:"The objective standard for whether an advertisement indicates a prohibited preference.",response:"What is the ordinary reader standard?"},
+    {t:"estate-years",k:"element list",clue:"An estate for years requires an express agreement, because it cannot arise by this.",response:"What is implication?"},
+    {t:"estate-years",k:"exact wording",clue:"What must be certain is not the certainty of the happening of the event, but the certainty of this.",response:"What is the date on which termination will take place?"},
+    {t:"estate-years",k:"application",clue:"\u201cFive years after my fiftieth birthday\u201d against \u201cfive years after the next war ends.\u201d The valid one, and why.",response:"What is the fiftieth birthday, being calculable when the lease is made?"},
+    {t:"renewal-covenants",k:"distinction",clue:"A general covenant to renew is satisfied by this many renewals.",response:"What is one?"}
+   ]},
+   {title:"Periodic and at will",clues:[
+    {t:"periodic",k:"definition",clue:"The tenancy of preference under modern law, and a single tenancy of indefinite duration.",response:"What is the periodic tenancy?"},
+    {t:"periodic",k:"application",clue:"Rent reserved at $700 per year but paid monthly yields this period.",response:"What is year to year?",note:"The reserved term controls over the payment term."},
+    {t:"periodic-notice",k:"element list",clue:"Notice required to end a tenancy from year to year or longer.",response:"What is six months?"},
+    {t:"periodic-notice",k:"distinction",clue:"Notice is effective to terminate only at this point, never at an intermediate one.",response:"What is the end of a period?"},
+    {t:"tenancy-will",k:"distinction",clue:"Under modern law, the tenancy reached only when no other kind can reasonably be inferred.",response:"What is the tenancy at will, the tenancy of last resort?"}
+   ]},
+   {title:"Lease, license, or neither",clues:[
+    {t:"lease-license",k:"definition",clue:"The element essential to the character of a lease.",response:"What is exclusive possession?"},
+    {t:"lease-license",k:"distinction",clue:"An instrument merely giving another the right to use premises for a specific purpose creates this.",response:"What is a license?"},
+    {t:"leasehold-nature",k:"exact wording",clue:"The somewhat anomalous name for a leasehold treated as personalty rather than realty.",response:"What is a chattel real?"},
+    {t:"sufferance",k:"definition",clue:"Not a tenancy at all, but the status of a holdover before the landlord acts.",response:"What is a tenancy at sufferance?"},
+    {t:"sof-lease",k:"application",clue:"The Statute of Frauds defeats a three-year oral lease, but rent is monthly. What arises.",response:"What is a month-to-month periodic tenancy?",note:"Invalidation produces a lesser tenancy, not none."}
+   ]},
+   {title:"Getting in",clues:[
+    {t:"duty-deliver",k:"distinction",clue:"The duty every lease carries, whether or not physical possession must also be delivered.",response:"What is the duty to deliver legal possession?"},
+    {t:"duty-deliver",k:"distinction",clue:"The majority rule, under which the landlord must oust a holdover.",response:"What is the English rule?"},
+    {t:"quiet-enjoyment",k:"definition",clue:"The covenant implied in every lease, protecting against ouster and disturbance by one with superior right.",response:"What is the covenant of quiet enjoyment?"},
+    {t:"quiet-enjoyment",k:"distinction",clue:"The covenant does not protect against these persons, who lack title.",response:"Who are trespassers, or pure wrongdoers?"},
+    {t:"quiet-enjoyment",k:"distinction",clue:"A superior right in a stranger is not a breach until this happens.",response:"What is that possession is actually disturbed?"}
+   ]},
+   {title:"Getting out",clues:[
+    {t:"actual-eviction",k:"exact wording",clue:"The tenant hires the premises as this, which is why depriving him of any part forfeits all the rent.",response:"What is an entirety?"},
+    {t:"actual-eviction",k:"distinction",clue:"What a landlord may not do to the rent by his own wrong.",response:"What is apportion it?"},
+    {t:"constructive-eviction",k:"element list",clue:"Besides severe conditions chargeable to the landlord, the element about the conditions' duration.",response:"What is that they be permanent, or perpetually recurring?"},
+    {t:"constructive-eviction",k:"element list",clue:"The last element, and the one that makes constructive eviction risky to assert.",response:"What is that the tenant vacate within a reasonable time?"},
+    {t:"constructive-eviction",k:"distinction",clue:"Transitory and fleeting interference is not eviction but this, giving damages only.",response:"What is a trespass?"}
+   ]},
+   {title:"Condition, covenants, transfers",clues:[
+    {t:"habitability",k:"distinction",clue:"The kind of lease to which the implied warranty of habitability is generally confined.",response:"What is a residential lease?"},
+    {t:"habitability",k:"distinction",clue:"Unlike the eviction defense, the warranty has this quality as a matter of law.",response:"What is that it cannot be waived?"},
+    {t:"dependence",k:"distinction",clue:"Under the minority rule, covenants are independent, so the tenant must do this rather than withhold rent.",response:"What is sue?"},
+    {t:"abandonment",k:"definition",clue:"Under the modern rule, what the landlord must do with reasonable efforts after abandonment.",response:"What is re-let, and so mitigate his damages?"},
+    {t:"transfers",k:"distinction",clue:"A transfer of all but the last sixteen days of the term is this, because the tenant keeps a reversion.",response:"What is a sublease?"}
+   ]}
+  ]}
+ ],
+ final:{category:"The shape of the argument",t:"two-innocents",k:"distinction",
+  clue:"It decides O'Connor, Zendman, and \u00a7 2-403 alike, and it reappears as the good-faith line in accession. State the maxim that allocates a loss between two blameless parties.",
+  response:"What is that the loss falls on the one whose act or omission enabled the wrongdoer's fraud?",
+  note:"Porter's owner hired investigators and consigned for home display only, so he was not estopped. Zendman's owner acquiesced in a sales-window display and took the proceeds, so he was."}
+};
+
+/* ---------- state ---------- */
+let roundIdx=0, score=0, right=0, wrong=0;
+let log=[];                 // every attempt this session: {t,k,ok,cat,item}
+let done={}, ddSet=new Set();
+let pendingKey=null, pendingFinal=false;
+let history=null;           // cross-session, if storage is available
+
+const $=id=>document.getElementById(id);
+const board=$("board"), veil=$("veil"), sheet=$("sheet");
+const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+const isNarrow=()=>window.matchMedia("(max-width:900px)").matches;
+function openVeil(){veil.hidden=false;document.body.classList.add("locked");veil.scrollTop=0;}
+function closeVeil(){veil.hidden=true;document.body.classList.remove("locked");}
+
+/* ---------- optional cross-session memory ---------- */
+async function loadHistory(){
+  history={sessions:0,topics:{}};
+  try{
+    const v=window.localStorage.getItem("propjeop:history");
+    if(v) history=JSON.parse(v);
+  }catch(e){}
+  refreshRestoreLabel();
+}
+
+/* ---- save code: carries history anywhere, storage or not ---- */
+const TIDS=Object.keys(TOPICS).sort();
+const c36=n=>Math.max(0,Math.min(35,n|0)).toString(36);
+const i36=n=>("0"+Math.max(0,Math.min(1295,n|0)).toString(36)).slice(-2);
+function makeCode(){
+  if(!history) return "";
+  let out="PR"+c36(history.sessions||0);
+  TIDS.forEach((id,i)=>{
+    const h=history.topics[id];
+    if(h&&h.seen) out+=i36(i)+c36(h.seen)+c36(h.missed);
+  });
+  return out;
+}
+function readCode(code){
+  code=(code||"").trim().replace(/\s+/g,"");
+  if(!/^PR[0-9a-z]+$/i.test(code)||(code.length-3)%4!==0) return null;
+  const out={sessions:parseInt(code[2],36)||0,topics:{}};
+  for(let i=3;i<code.length;i+=4){
+    const id=TIDS[parseInt(code.slice(i,i+2),36)];
+    if(!id) return null;
+    out.topics[id]={seen:parseInt(code[i+2],36),missed:parseInt(code[i+3],36)};
+  }
+  return out;
+}
+function refreshRestoreLabel(){
+  const b=$("restore");
+  if(!b||!history) return;
+  const n=Object.keys(history.topics||{}).length;
+  b.textContent=n?("Progress loaded \u2014 "+n+" topics tracked"):"Paste a save code";
+}
+function promptRestore(){
+  const raw=window.prompt("Paste your save code:");
+  if(raw===null) return;
+  const parsed=readCode(raw);
+  if(!parsed){ window.alert("That code was not readable. It should begin with PR."); return; }
+  history=parsed; saveHistory(); refreshRestoreLabel();
+  window.alert("Restored. "+Object.keys(parsed.topics).length+" topics carried over.");
+}
+async function saveHistory(){
+  try{
+    if(!history) return;
+    window.localStorage.setItem("propjeop:history",JSON.stringify(history));
+  }catch(e){}
+}
+function recordHistory(){
+  if(!history) return;
+  history.sessions=(history.sessions||0)+1;
+  log.forEach(a=>{
+    const h=history.topics[a.t]||(history.topics[a.t]={seen:0,missed:0});
+    h.seen++; if(!a.ok) h.missed++;
+  });
+  saveHistory();
+}
+
+/* ---------- board ---------- */
+function pickDailyDoubles(){
+  ddSet=new Set();
+  const r=DATA.rounds[roundIdx], total=r.categories.length*5;
+  while(ddSet.size<r.dailyDoubles) ddSet.add(Math.floor(Math.random()*total));
+}
+const valueOf=ri=>DATA.rounds[roundIdx].base*(ri+1);
+const key=(c,r)=>roundIdx+":"+c+":"+r;
+
+function renderScore(){
+  const el=$("score");
+  el.innerHTML=(score<0?"\u2212":"")+"$"+Math.abs(score).toLocaleString()+"<small>score</small>";
+  el.classList.toggle("neg",score<0);
+  const r=DATA.rounds[roundIdx];
+  const left=r.categories.length*5-Object.keys(done).filter(k=>k.startsWith(roundIdx+":")).length;
+  $("tally").textContent=left+(left===1?" clue left":" clues left")+" \u2014 "+right+" right, "+wrong+" wrong";
+}
+
+function makeCell(ci,ri){
+  const b=document.createElement("button");
+  b.className="cellbtn";
+  const v=valueOf(ri);
+  b.textContent="$"+v;
+  b.setAttribute("aria-label",DATA.rounds[roundIdx].categories[ci].title+", $"+v);
+  if(done[key(ci,ri)]){b.disabled=true;b.textContent="";}
+  else b.onclick=()=>openClue(ci,ri);
+  return b;
+}
+
+function renderBoard(){
+  const r=DATA.rounds[roundIdx];
+  $("roundName").textContent=r.name;
+  $("advance").textContent=roundIdx<DATA.rounds.length-1?("Skip to round "+(roundIdx+2)):"Skip to the final";
+  board.innerHTML="";
+  if(isNarrow()){
+    r.categories.forEach((cat,ci)=>{
+      const h=document.createElement("div");h.className="cat";h.textContent=cat.title;board.appendChild(h);
+      const g=document.createElement("div");g.className="catgroup";
+      cat.clues.forEach((_,ri)=>g.appendChild(makeCell(ci,ri)));
+      board.appendChild(g);
+    });
+  }else{
+    r.categories.forEach(cat=>{const h=document.createElement("div");h.className="cat";h.textContent=cat.title;board.appendChild(h);});
+    for(let ri=0;ri<5;ri++) for(let ci=0;ci<r.categories.length;ci++) board.appendChild(makeCell(ci,ri));
+  }
+  renderScore();
+}
+
+/* ---------- clue flow ---------- */
+function openClue(ci,ri){
+  pendingKey=key(ci,ri);
+  const cat=DATA.rounds[roundIdx].categories[ci];
+  const item=cat.clues[ri], v=valueOf(ri);
+  if(ddSet.has(ci*5+ri)) askWager(cat.title,item,v,true);
+  else showClue(cat.title,item,v,false);
+}
+
+function askWager(catTitle,item,v,isDD){
+  const cap=Math.max(score,v,DATA.rounds[roundIdx].base*5);
+  sheet.innerHTML=`<div class="dd">Daily double</div>
+    <div class="eyebrow">${esc(catTitle)}</div>
+    <p class="clue">How much do you want to risk?</p>
+    <input class="wager" id="wagerIn" type="number" min="0" max="${cap}" value="${v}" inputmode="numeric">
+    <p class="hint">Anything up to $${cap.toLocaleString()}.</p>
+    <div class="row"><button class="btn primary" id="wagerGo">See the clue</button></div>`;
+  openVeil();
+  const inp=$("wagerIn"); inp.focus(); inp.select();
+  const go=()=>{let w=parseInt(inp.value,10); if(isNaN(w)||w<0)w=0; if(w>cap)w=cap; showClue(catTitle,item,w,isDD);};
+  $("wagerGo").onclick=go;
+  inp.onkeydown=e=>{if(e.key==="Enter")go();};
+}
+
+function showClue(catTitle,item,amount,isDD){
+  sheet.innerHTML=`${isDD?'<div class="dd">Daily double</div>':""}
+    <div class="eyebrow">${esc(catTitle)} <span class="amt">$${amount.toLocaleString()}</span></div>
+    <p class="clue">${esc(item.clue)}</p>
+    <div class="row"><button class="btn primary" id="revealBtn">Reveal the response</button></div>`;
+  openVeil();
+  $("revealBtn").focus();
+  $("revealBtn").onclick=()=>reveal(catTitle,item,amount);
+}
+
+function reveal(catTitle,item,amount){
+  sheet.innerHTML=`<div class="eyebrow">${esc(catTitle)} <span class="amt">$${amount.toLocaleString()}</span></div>
+    <p class="clue">${esc(item.clue)}</p>
+    <p class="answer">${esc(item.response)}</p>
+    ${item.note?`<p class="note">${esc(item.note)}</p>`:""}
+    <div class="row">
+      <button class="btn good" id="gotIt">I had it</button>
+      <button class="btn bad" id="missed">I missed it</button>
+    </div>`;
+  $("gotIt").focus();
+  $("gotIt").onclick=()=>settle(true,amount,catTitle,item);
+  $("missed").onclick=()=>settle(false,amount,catTitle,item);
+}
+
+function settle(ok,amount,catTitle,item){
+  if(ok){score+=amount;right++;}else{score-=amount;wrong++;}
+  log.push({t:item.t,k:item.k,ok,cat:catTitle,item});
+  closeVeil();
+  if(pendingFinal){pendingFinal=false;finish();return;}
+  done[pendingKey]=true;
+  renderBoard();
+  const r=DATA.rounds[roundIdx];
+  if(r.categories.length*5-Object.keys(done).filter(k=>k.startsWith(roundIdx+":")).length===0) nextRound();
+}
+
+function nextRound(){
+  if(roundIdx<DATA.rounds.length-1){roundIdx++;pickDailyDoubles();renderBoard();}
+  else startFinal();
+}
+
+function startFinal(){
+  pendingFinal=true;
+  const f=DATA.final, cap=Math.max(score,0);
+  sheet.innerHTML=`<div class="dd">Final</div>
+    <div class="eyebrow">${esc(f.category)}</div>
+    <p class="clue">How much do you want to risk?</p>
+    <input class="wager" id="wagerIn" type="number" min="0" max="${cap}" value="${cap}" inputmode="numeric">
+    <p class="hint">${cap>0?"Anything up to $"+cap.toLocaleString()+".":"Your score is at or below zero, so the wager is zero."}</p>
+    <div class="row"><button class="btn primary" id="wagerGo">See the clue</button></div>`;
+  openVeil();
+  const inp=$("wagerIn"); inp.focus(); inp.select();
+  const go=()=>{let w=parseInt(inp.value,10); if(isNaN(w)||w<0)w=0; if(w>cap)w=cap; showClue(f.category,f,w,false);};
+  $("wagerGo").onclick=go;
+  inp.onkeydown=e=>{if(e.key==="Enter")go();};
+}
+
+/* ---------- diagnosis ---------- */
+function tallyTopics(){
+  const m={};
+  log.forEach(a=>{const e=m[a.t]=m[a.t]||{seen:0,missed:0};e.seen++;if(!a.ok)e.missed++;});
+  return m;
+}
+function tallyBy(fieldFn){
+  const m={};
+  log.forEach(a=>{const f=fieldFn(a);const e=m[f]=m[f]||{seen:0,missed:0};e.seen++;if(!a.ok)e.missed++;});
+  return m;
+}
+
+function barRow(label,who,missed,seen,repeatNote){
+  const pct=seen?Math.round(missed/seen*100):0;
+  return `<div class="trow">
+    <div class="tname">${esc(label)}${who?` <span class="who">${esc(who)}</span>`:""}${repeatNote?` <span class="repeat">${esc(repeatNote)}</span>`:""}</div>
+    <div class="bar"><i class="${pct>=50?"":"warm"}" style="width:${Math.max(pct,4)}%"></i></div>
+    <div class="tnum">${missed} of ${seen}</div>
+  </div>`;
+}
+
+/* ---------- report ---------- */
+function finish(){ recordHistory(); showReport(); }
+
+function showReport(){
+  $("boardArea").hidden=true;
+  $("roundName").textContent="Report";
+  const area=$("resultsArea"); area.hidden=false;
+
+  const topics=tallyTopics();
+  const weak=Object.entries(topics).filter(([,v])=>v.missed>0)
+      .sort((a,b)=>(b[1].missed/b[1].seen)-(a[1].missed/a[1].seen)||b[1].missed-a[1].missed);
+
+  const authors=Object.entries(tallyBy(a=>(TOPICS[a.t]||{}).author||"\u2014"))
+      .filter(([,v])=>v.missed>0).sort((a,b)=>b[1].missed-a[1].missed);
+  const kinds=Object.entries(tallyBy(a=>a.k))
+      .filter(([,v])=>v.missed>0).sort((a,b)=>(b[1].missed/b[1].seen)-(a[1].missed/a[1].seen));
+
+  const weakHtml=weak.length?weak.map(([id,v])=>{
+    const T=TOPICS[id]||{label:id,author:""};
+    let rep="";
+    if(history&&history.topics[id]&&history.sessions>1){
+      const h=history.topics[id];
+      if(h.missed>v.missed) rep="also missed in earlier rounds";
+    }
+    return barRow(T.label,T.author,v.missed,v.seen,rep);
+  }).join(""):`<p class="clean">Nothing to flag. Every topic came back clean.</p>`;
+
+  const kindLine=kinds.length
+    ? `The recall that broke down most often was <strong>${esc(kinds[0][0])}</strong>, at ${kinds[0][1].missed} of ${kinds[0][1].seen}. ${
+        kinds[0][0]==="element list"?"That means the lists are not consolidated: drill them as complete sets rather than recognizing one member at a time."
+        :kinds[0][0]==="exact wording"?"The concepts are there but the formulations are not. Those are the ones worth saying aloud until the phrasing is automatic."
+        :kinds[0][0]==="attribution"?"You know the doctrine but lose track of who said it. On an essay that costs you the citation, not the analysis."
+        :kinds[0][0]==="distinction"?"The individual rules are landing but the contrasts between them are not. Those contrasts are where the exam lives."
+        :kinds[0][0]==="application"?"You can state the rules but not run them against facts. Work the hypotheticals, not the definitions."
+        :"Work the definitions first; everything else is built on them."}`
+    : "";
+
+  const authorLine=authors.length
+    ? `Most misses cluster on <strong>${esc(authors[0][0])}</strong>${authors.length>1?`, then ${esc(authors[1][0])}`:""}.`
+    : "";
+
+  const guideHtml=weak.length?weak.map(([id])=>{
+    const T=TOPICS[id]; if(!T) return "";
+    return `<div class="guide"><div class="gh">${esc(T.label)} <span class="who">${esc(T.author)}</span></div><p>${esc(T.brief)}</p></div>`;
+  }).join(""):"";
+
+  const drillCount=weak.reduce((n,[id])=>n+((TOPICS[id]&&TOPICS[id].drills)||[]).length,0);
+
+  area.innerHTML=`<div class="results">
+    <h2>Final score</h2>
+    <div class="bigscore ${score<0?"neg":""}">${score<0?"\u2212":""}$${Math.abs(score).toLocaleString()}</div>
+    <p class="tally">${right} right, ${wrong} wrong${history&&history.sessions?`, across ${history.sessions} session${history.sessions===1?"":"s"} on this device`:""}.</p>
+
+    <section class="rep">
+      <h3>Where it broke down</h3>
+      <p class="sub">Topics you missed, worst rate first.</p>
+      ${weakHtml}
+    </section>
+
+    ${(authorLine||kindLine)?`<section class="rep">
+      <h3>The pattern</h3>
+      <p class="sub" style="color:#D6CAB0;font-size:.97rem">${authorLine} ${kindLine}</p>
+    </section>`:""}
+
+    ${guideHtml?`<section class="rep">
+      <h3>Study guide for what you missed</h3>
+      <p class="sub">Read these before the drill.</p>
+      ${guideHtml}
+    </section>`:""}
+
+    <section class="rep">
+      <h3>Save code</h3>
+      <p class="sub">Keep this and paste it at the start of your next round. It carries your miss history even if this page cannot store anything.</p>
+      <p class="codebox" id="codeBox">${esc(makeCode())}</p>
+      <div class="controls"><button class="btn" id="copyCode">Copy the code</button></div>
+    </section>
+
+    <div class="controls">
+      ${drillCount?`<button class="btn primary" id="drillBtn">Drill these (${drillCount} questions)</button>`:""}
+      <button class="btn" id="again">New board</button>
+    </div>
+  </div>`;
+
+  if(drillCount) $("drillBtn").onclick=()=>startDrill(weak.map(([id])=>id));
+  $("copyCode").onclick=async()=>{
+    const code=makeCode(), b=$("copyCode");
+    try{ await navigator.clipboard.writeText(code); b.textContent="Copied"; }
+    catch(e){
+      const r=document.createRange(); r.selectNodeContents($("codeBox"));
+      const sel=window.getSelection(); sel.removeAllRanges(); sel.addRange(r);
+      b.textContent="Selected \u2014 hold and copy";
+    }
+    setTimeout(()=>{b.textContent="Copy the code";},2200);
+  };
+  $("again").onclick=resetAll;
+  renderScore();
+}
+
+function resetAll(){
+  roundIdx=0;score=0;right=0;wrong=0;log=[];done={};pendingFinal=false;
+  $("resultsArea").hidden=true; $("boardArea").hidden=false;
+  pickDailyDoubles(); renderBoard();
+}
+
+/* ---------- drill ---------- */
+let drill={items:[],i:0,ok:0,bad:[],sel:[]};
+
+function startDrill(topicIds){
+  const items=[];
+  topicIds.forEach(id=>{
+    const T=TOPICS[id]; if(!T||!T.drills) return;
+    T.drills.forEach(d=>items.push(Object.assign({},d,{topic:id,label:T.label,author:T.author})));
+  });
+  for(let i=items.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[items[i],items[j]]=[items[j],items[i]];}
+  drill={items,i:0,ok:0,bad:[],sel:[]};
+  renderDrill();
+}
+
+function renderDrill(){
+  const d=drill.items[drill.i];
+  if(!d) return drillSummary();
+  drill.sel=[];
+  const multi=d.type==="pick";
+  sheet.innerHTML=`
+    <div class="eyebrow">${esc(d.label)} <span class="amt">${esc(d.author)}</span></div>
+    <p class="prog">Question ${drill.i+1} of ${drill.items.length}</p>
+    <p class="clue" style="font-size:1.32rem">${esc(d.prompt)}</p>
+    <div id="opts" style="text-align:left;max-width:600px;margin:0 auto"></div>
+    ${multi?`<div class="row"><button class="btn primary" id="check">Check</button></div>`:""}`;
+  openVeil();
+  const box=$("opts");
+  d.options.forEach((o,i)=>{
+    const b=document.createElement("button");
+    b.className="opt"; b.type="button";
+    b.innerHTML=`<span class="mk">${multi?"\u25a2":String.fromCharCode(65+i)}</span>${esc(o)}`;
+    b.onclick=()=>{
+      if(multi){
+        const at=drill.sel.indexOf(i);
+        if(at>-1){drill.sel.splice(at,1);b.classList.remove("sel");b.querySelector(".mk").textContent="\u25a2";}
+        else{drill.sel.push(i);b.classList.add("sel");b.querySelector(".mk").textContent="\u25a3";}
+      }else gradeDrill([i]);
+    };
+    box.appendChild(b);
+  });
+  if(multi) $("check").onclick=()=>gradeDrill(drill.sel.slice());
+}
+
+function gradeDrill(sel){
+  const d=drill.items[drill.i];
+  const want=d.type==="pick"?d.correct.slice().sort():[d.correct];
+  const got=sel.slice().sort();
+  const ok=want.length===got.length&&want.every((v,i)=>v===got[i]);
+  if(ok)drill.ok++;else drill.bad.push(d);
+
+  const opts=[...document.querySelectorAll("#opts .opt")];
+  opts.forEach((b,i)=>{
+    b.disabled=true;
+    if(want.includes(i))b.classList.add("hit");
+    else if(got.includes(i))b.classList.add("err");
+  });
+  const check=$("check"); if(check)check.remove();
+  const tail=document.createElement("div");
+  tail.innerHTML=`<p class="verdict ${ok?"ok":"no"}">${ok?"Right.":"Not it."}</p>
+    <p class="why">${esc(d.why)}</p>
+    <div class="row"><button class="btn primary" id="nextD">${drill.i+1<drill.items.length?"Next question":"See how it went"}</button></div>`;
+  sheet.appendChild(tail);
+  $("nextD").focus();
+  $("nextD").onclick=()=>{drill.i++;renderDrill();};
+}
+
+function drillSummary(){
+  const stillBad=[...new Set(drill.bad.map(d=>d.topic))];
+  sheet.innerHTML=`
+    <div class="eyebrow">Drill finished</div>
+    <p class="clue" style="font-size:1.45rem">${drill.ok} of ${drill.items.length} correct</p>
+    ${stillBad.length?`<p class="why">Still not sticking: ${stillBad.map(id=>esc((TOPICS[id]||{}).label||id)).join(", ")}.</p>`:`<p class="why">All of them came back. Those topics are consolidated.</p>`}
+    <div class="row">
+      ${stillBad.length?`<button class="btn primary" id="redrill">Drill just those again</button>`:""}
+      <button class="btn" id="closeD">Back to the report</button>
+    </div>`;
+  if(stillBad.length) $("redrill").onclick=()=>startDrill(stillBad);
+  $("closeD").onclick=()=>{closeVeil();};
+}
+
+/* ---------- boot ---------- */
+$("advance").onclick=nextRound;
+$("restore").onclick=promptRestore;
+document.addEventListener("keydown",e=>{
+  if(e.key==="Escape"&&!veil.hidden&&!pendingFinal&&drill.items.length===0) closeVeil();
+});
+let wasNarrow=isNarrow();
+window.addEventListener("resize",()=>{
+  const now=isNarrow();
+  if(now!==wasNarrow){wasNarrow=now;if(!$("boardArea").hidden)renderBoard();}
+});
+loadHistory();
+pickDailyDoubles();
+renderBoard();
+
+</script>
+</body>
+</html>
